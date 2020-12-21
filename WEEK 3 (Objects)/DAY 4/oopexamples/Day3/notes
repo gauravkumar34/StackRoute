@@ -1,0 +1,129 @@
+Polymorphism
+
+One in many forms
+
+1. Static Polymorphism - Constructor overloading, method overloading
+2. Dynamic polymorphism
+
+
+
+Enum - enumnerated data type
+
+primitives -> built into the language (8 int....)
+user defined data types -> Employee(), Student()
+
+set of constants -> final variables ...
+
+ParentClass/SuperClass/Base Class
+
+Child class/ sub class/ derived class
+
+Types of inheritance
+
+1. Single 
+
+A  <--  B
+
+2. Multilevel
+
+A <-- B <-- C
+
+3. Hierarchical
+
+A
+  <---   B
+|
+C
+
+4. Multiple/Hybrid
+
+A <- B 
+<- C     B,C <- D
+
+
+Employee -> RegionalHead
+           Manager
+
+Employee(empId,name,salary) 
+
+RegionalHead (regionName,regionPerformance,reviewRatingsForRegion)
+empId,name,salary
+
+Manager(teamSize,teamRatings...)
+empId,name,salary
+
+
+depending on the designation -> calculate Increment
+
+
+1. Objects -> fields, elements....
+2. Object Comparison
+
+
+int a,b
+
+a == b
+
+s,s1
+
+s.equals(s1) -> compare the values s,s1
+
+Address addr1 = new Address(124, "Main", "Mumbai", 400302);
+Address addr2 = new Address(124, "Main", "Mumbai", 400302);
+
+
+addr1 == addr2 -> true/false
+
+== memory reference -> 
+
+addr1.equals(addr2) -> return me true -> compare the values
+
+
+s1 = "Hello",
+s2 ="Hello"
+
+s1.equals(s2) -> Hello == Hello
+
+Money income = new Money(3000,"INR");
+Money expense = new Money(3000,"INR");
+
+3000 == 3000 //primitive
+INR.equals("INR") // string .equals method
+
+
+Object is the top class of all classes in Java
+defines certain methods
+
+All classes implicitly extend/inherit the object class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

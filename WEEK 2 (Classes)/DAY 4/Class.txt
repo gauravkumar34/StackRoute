@@ -1,0 +1,13 @@
+Composition 
+------------
+
+Object can contain another object
+
+Employee has an Address
+
+Student object -> can have an address
+
+String address -> addresss
+
+Address -> street no, house no, pincode etc..
+

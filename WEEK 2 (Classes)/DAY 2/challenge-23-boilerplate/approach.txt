@@ -1,0 +1,8 @@
+Array ->
+    Source, destination, distance, flight time, cost;
+
+    Delhi, Mumbai, 1148, 2:10, INR6000
+
+TASK 1;
+    Delhi, Mumbai, 1148, 2:10, INR6000
+    print String 

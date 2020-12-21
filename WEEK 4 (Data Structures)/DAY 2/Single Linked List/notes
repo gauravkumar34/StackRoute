@@ -1,0 +1,9 @@
+Linked List 
+
+1. Node -> element of the linked List
+
+- no continuos memory (store any data type ) 
+- one node 10/ refernce to the next node
+- last node -> null 
+
+

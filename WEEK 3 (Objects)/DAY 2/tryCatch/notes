@@ -1,0 +1,37 @@
+Exception and Handling
+
+What ?
+
+Java Code ->
+    1.Normal Code
+        int a=10;
+
+    2.Critical Code
+        integers
+        a = from user
+        b = from the user
+
+        int result = a/b;
+        if(b=0; divide by zero - > arithmeticexception)
+
+        ->read from external sources(file, database)
+
+        Handling Critical code -> exception Handling;
+
+        bunch of classes ->help;
+        
+    Exception :-
+        1. checked  -> resolved at complie time
+        2. unChecked -> resolved at run time
+
+    Handling  :-
+        1. try...catch..finally blocks
+        declear as well as handle the exception;
+        2. throws (used for checked exception)
+        declear -> at the method level saying the statement in side this method are likely to throw an exception
+        Handling will be taken care of by the class/method thats call the method.
+        3. throw 
+        declear ->this is used to throw exception explicity
+
+    Voter App 
+    <18 throw exception;

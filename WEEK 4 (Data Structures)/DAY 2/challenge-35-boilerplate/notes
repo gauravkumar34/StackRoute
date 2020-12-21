@@ -1,0 +1,48 @@
+class Node {
+
+Word word;
+Node next;
+//constructor
+}
+
+class Word{
+    String word;
+    int noOfOccurrences;
+    //getter/setter
+    //constructor
+}
+
+class SinglyLinkedList{
+    searchForWord(String data){
+
+    }
+    addWord(Word word){
+
+    }
+    showWords()
+    {
+        //traversal
+    }
+
+}
+
+class TextAnalyzer{
+    countTheWords()
+    readFile(String file)
+    {
+        while(br.readLine!=null)
+        {
+     //readLine()....
+     split("\\s+");
+     ,:"' -> 
+
+     iterate through array
+     arr[i].replaceAll([","..."],""); 
+    sl.searchForWord(arr[i])
+    
+    //put in the Word -> cons/gettersetter
+else
+{
+    nof = 1
+    sl.addWord(wordObj)
+}

@@ -1,0 +1,65 @@
+Polymorphism
+
+One in many forms
+
+1. Static Polymorphism - Constructor overloading, method overloading
+2. Dynamic polymorphism
+
+
+
+Enum - enumnerated data type
+
+primitives -> built into the language (8 int....)
+user defined data types -> Employee(), Student()
+
+set of constants -> final variables ...
+
+ParentClass/SuperClass/Base Class
+
+Child class/ sub class/ derived class
+
+Types of inheritance
+
+1. Single 
+
+A  <--  B
+
+2. Multilevel
+
+A <-- B <-- C
+
+3. Hierarchical
+
+A
+  <---   B
+|
+C
+
+4. Multiple/Hybrid
+
+A <- B 
+<- C     B,C <- D
+
+
+Employee -> RegionalHead
+           Manager
+
+Employee(empId,name,salary) 
+
+RegionalHead (regionName,regionPerformance,reviewRatingsForRegion)
+empId,name,salary
+
+Manager(teamSize,teamRatings...)
+empId,name,salary
+
+
+depending on the designation -> calculate Increment
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+storage of pointer  -> 
+
+Binary Tree 
+InOrder -> left,root,right 
+PreOrder -> root,left,right 
+PostOrder -> left,right,root
+

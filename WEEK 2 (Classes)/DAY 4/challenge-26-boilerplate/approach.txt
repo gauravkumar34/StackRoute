@@ -1,0 +1,37 @@
+
+->Class
+Customer -> 
+    //attributes
+    id, name, address, bod, phoneNumber;
+
+->Class
+Address -> details(villageName, pincode, State)
+
+
+//behaviour
+validatePhoneNumber(){
+
+}
+
+generatedId(){
+//randomly generate
+//random id package;
+}
+
+->Class
+customerAnalyzer(){
+//accept
+//display
+
+}
+
+
+->Class
+CustomerImpl()
+{
+    displayDetails by Last Name;
+
+    findCustomerByLastName();
+    findCustomerByTalukName();
+}
+

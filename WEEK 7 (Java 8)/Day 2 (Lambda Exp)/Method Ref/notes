@@ -1,0 +1,19 @@
+Method Referances
+
+refer to a method, without actually having to excute it 
+
+A a = new A();
+a.method() -> called 
+classA a,b  -> declare/referance for the objects
+
+method() -> referance to the method-> 
+Higher Order functions -> have as parameters other functions as well 
+
+method 
+1. static
+2. instance 
+
+Addition add = new Addition();
+sum() -> interface 
+
+sumOfNaturalNumbers(sum(),no1,no2)

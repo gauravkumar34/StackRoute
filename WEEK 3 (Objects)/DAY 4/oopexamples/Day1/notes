@@ -1,0 +1,240 @@
+Programming
+    - writing a set of instructions
+    - automation -> build a tool
+
+
+Paradigm - > how you write programs
+
+1. Functional -> dividing the tasks into smaller subroutines/ blocks, call them , pass parameters, return values
+2. Procedural  -> modules -> 
+3. Object Oriented -> Real life scenarios -> 
+
+
+Baking a cake -> 
+function bake(){
+mixer -> mix all the ingredients
+pour the mix into a pan
+heat the oven and bake
+}
+
+mixer -> definition to how the mixer will work  -> noun
+//manual -> tells you how the appliance works
+{
+//behaviour how my appliance work
+mixing() -> verb
+kneading() -> verb
+}
+
+
+class Mixer{
+//identity
+int mixerId;
+String brandName;
+
+//behaviour
+void mix()
+{
+
+}
+
+void knead(){
+
+}
+}
+
+Mixer -> generate mixer objects
+
+class Employee{
+    //hold details of employees name no age address....
+}
+
+generate -> set of employees
+100 -> 100 sets from the class
+
+objects -> 
+
+
+
+Bookstore -> 
+
+Books -> defined identity and behaviour
+Bookstore -> contains books, discount for the books that I sell
+
+
+Student -> in a class
+
+name
+rollno
+sc math ss eng lang ->
+constructor(......)
+{
+
+}
+
+acceptValues()
+{
+    scanner => 
+}
+calculations 
+totalMarks
+Avg
+
+
+StudentImpl
+{
+    accept -> populate objects through the constructor
+
+
+}
+
+
+
+AgSchool -> Publish results of the students
+
+Student -> 100
+
+arrays -> name, roll no, marks
+
+calculation -> total, average
+
+
+Noun -> 
+
+AgSchool ->
+Student  -> 
+name,rollno, marks....
+
+student -> String name, int rollNo, int science, int math
+
+Student [] students = new Student[100];
+
+
+students[i] -> String name, int rollNo, int science, int math
+
+
+
+Student -> define behaviour
+
+1. calculation -> TotalMarks, AverageMarks -> 2 methods
+
+
+StudentImpl ->
+
+//call the method getStudentValues
+Student[] students
+
+toScorrer
+
+{
+    iterater through the students
+    {
+        student[i].calculateTotalMarks()
+    }
+}
+
+Requirement
+Employee -> 
+
+1. dataentry -> get the values pertaining to the employees and  store it in an array of Employee objects
+10 Employees -> Employee empList [] = new Employee[10];
+2. display the details of all my employees
+3. Computations to be done on the employee data -> 
+    calculateHighestAnnualSalary(Employee[] empList)
+    calculateAverageAnnualSalary(Employee[] empList)
+
+
+Employee -> int empid
+            String name
+
+4 bytes -> stack memory
+name -> heap reference in the stack
+
+HashTables -> 
+
+
+empList -> continuos memory space
+
+
+
+static keyword.
+---------------
+
+final -> constant values
+
+
+values inside my class to keep on changing -> 
+class Sample
+int  a 
+
+obj1,obj2,obj3 -> 
+
+Youtube -> likes, subscribe -> 
+
+no of persons visiting a website -> 
+
+count -> reset -> 
+
+
+
+every object created -> varibles
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Banking Application
+-------------------
+
+OOP
+
+
+Functional
+----------
+
+
+Tell you laptop open an application -> set of instructions -> functional
+

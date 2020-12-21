@@ -1,0 +1,53 @@
+1. access specifiers -> packages 
+2. accessors and mutators
+3. Immutability
+4. Object comparison
+
+
+
+Student -> getters/setters/ Immutability
+StudentAnalyzer -> logic
+StudentImpl -> main method
+
+
+emplist = {{102,Tima,34534},{103,Gary,43433}}
+emp1,emp2
+            {0}               {1}
+empList[0].getAnnualSalary() -> 34534*12 -> method
+
+
+
+public float getAnnualSalary() {
+    setAnnualSalary(12*monthlySalary);
+        return annualSalary;
+    }
+private void setAnnualSalary(float annualSalary) {
+        //float aSalary = monthlySalary*12;
+        this.annualSalary = annualSalary;
+    }
+
+
+
+
+
+
+1. Student -> name,rollno, math,sc,ss,lang,eng, taotal,average
+2. StudentAnalyzer -> accept,display, total, average,grade
+3. StudentImpl -> calling the methods, main
+
+
+
+Array of Students -> 
+
+{name,rll,total, avergare}
+
+
+
+
+
+
+
+
+
+
+

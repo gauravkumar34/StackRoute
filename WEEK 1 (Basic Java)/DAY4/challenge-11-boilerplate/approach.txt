@@ -1,0 +1,48 @@
+Taking input:
+
+1. no of students = 10
+2. name[] rollno[] or 2d array [name][rollno]
+3. each mark -> math[],ss[],sc[]
+
+computation
+ calculateTotalMarks()
+ {
+     name[0],rollno[0],math[0],ss[0],sc[0];
+     totalMarks[] = totalMarks[0];
+
+ }
+findTheHighestScorer(){
+    compare the totolMarks ->
+    track the index ->
+}
+
+findAverageMarks()
+{
+    // each Subject
+}
+<------------------------------------------------------>
+ /**
+ * Input Format 
+ */
+n = no of student 
+name_arr[ ] //student name;
+for 1->n+1;
+    cin>>arr[i];
+marks_arr[1][makrs.each.subject] // storing marks;
+for 1-> n+1;
+    for 1-> 5;
+        arr[i][j];
+
+/**
+*calculateTotalMarks
+*/
+totalMarks += arr[j];
+
+/**
+*findTheHighestScorer()
+*/
+
+
+/**
+*findAverageMarks()
+*/

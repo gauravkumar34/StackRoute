@@ -1,0 +1,67 @@
+Exception -> 
+
+NullPointer
+ParseException
+IndexOutOfBounException
+
+
+What?
+
+Java Code -> 
+
+1. Normal Code 
+int a = 10;
+
+2. Critical Code
+integers
+a = from user
+b = from the user
+
+int result = a/b;
+
+if b = 0; -> divide by zero error -> arithmeticexception
+
+-> read from external sources(file, database)
+
+
+
+Handling Critical code -> exception Handling
+
+Bunch of classes -> help
+Exception  
+
+1. Checked -> resolved at compile time
+
+2. UncheckedException -> resolved at runtime
+
+
+Handling
+1. try...catch...finally blocks
+declare as well as handle the exception ->
+2. throws -> used for checked exceptions
+declare -> at the method level saying the statements in side this method are likely to throw an exception
+handling will be taken care of by the class/method that calls the method
+3. throw
+declare -> this used to throw exception explicity
+
+
+Voter App
+
+<18 -> throw an exception
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

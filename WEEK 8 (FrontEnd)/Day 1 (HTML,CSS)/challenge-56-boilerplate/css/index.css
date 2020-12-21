@@ -1,0 +1,29 @@
+.img-prod {
+  width: 180px;
+  height: 200px;
+  border: solid 1px;
+}
+.menu {
+  margin-left: 50%;
+}
+.backgroundImg {
+  width: 1250px;
+  height: 400px;
+  margin-left: 10%;
+}
+.imges {
+  margin-left: 30%;
+  align-items: center;
+}
+tr {
+  padding: 3%;
+}
+h1 {
+  color: gray;
+}
+.contact {
+  color: green;
+}
+li {
+  margin-left: 10px;
+}

@@ -1,0 +1,14 @@
+Recursion ->
+
+problem solving -> smaller instances, subportions of your code;
+
+for loop()
+1. decrement
+2. running for 5 iterations
+
+Recursion ->
+5*4
+5*4*3
+.... 5*4*3*2*1;
+
+calling the same method over and over until arrive at a solution;

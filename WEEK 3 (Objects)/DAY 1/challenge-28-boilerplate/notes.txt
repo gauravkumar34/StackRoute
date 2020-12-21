@@ -1,0 +1,14 @@
+>> Design Remote vehical Engines
+
+Engine(Base class)
+- Electric Engine 
+- Petrol Engine
+- CNG Engine
+- Diesel Engine
+- Hybride Engine (Petrol 'n'  Electric)
+
+showSpacs() //Display
+
+Engine(int modaleNo){
+
+}

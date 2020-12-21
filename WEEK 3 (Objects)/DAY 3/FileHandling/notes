@@ -1,0 +1,27 @@
+Input Output operations -> 
+
+Scanner -> data -> binary format -> 1's and 0's -> stream
+
+File, Database.
+
+Employee Application
+Student Result -> reading from a file
+
+
+hello
+converted to ascii format - utf8
+reader/writer
+raw format 1's 0's
+
+
+binary -> stream / reader classes
+
+1. binary data -> 8 bytes of data -> stream input/output - byte stream -> video,audio
+2. character data -> 16 bytes -> reader/writer - character stream - text ->
+
+
+System.out
+
+
+BufferedInputStream -> InputStream(file,string.....) -> 8kb buffer -> java source read
+

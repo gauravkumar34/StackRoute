@@ -1,0 +1,82 @@
+Input Output operations -> 
+
+Scanner -> data -> binary format -> 1's and 0's -> stream
+
+File, Database.
+
+Employee Application
+Student Result -> reading from a file
+
+
+hello
+converted to ascii format - utf8
+reader/writer
+raw format 1's 0's
+
+
+binary -> stream / reader classes
+
+1. binary data -> 8 bytes of data -> stream input/output - byte stream -> video,audio
+2. character data -> 16 bytes -> reader/writer - character stream - text ->
+
+
+System.out
+
+
+BufferedInputStream -> InputStream(file,string.....) -> 8kb buffer -> java source read
+
+
+Stock Analyzer
+
+cipla.csv -> comma seperated files
+
+date,open,high,low,close -> one line of data.....1000
+
+readLine()
+
+class Stock{
+    Date date;
+    double open;
+    double high;
+    double low;
+    double close;
+}
+
+class StockAnalyzer{
+    Stock[] readFile()
+    {
+        read the file line by line
+        lines -> size of the array
+        declare
+        Stock[] stocks = new Stock[n];
+        read file line by line
+        split each line
+        split the line and put it into the object
+        line[]
+        Stock stock = new (line[0],line[1])....
+
+
+        return 1000 records;
+    }
+
+
+    read the close price of record 1
+    read the close price of last record
+
+    abs return formula = 
+
+use to calculate formula
+
+}
+
+
+Reading argument values from the command line
+String args[]
+
+-> application -> start -> configuration info -> 
+
+path to a file,
+path to a Database
+at startup -> display certain rules 
+
+
