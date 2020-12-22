@@ -1,0 +1,68 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  background-color: rgb(68, 126, 177);
+  text-align: center;
+  color: wheat;
+}
+.container {
+  text-align: center;
+  margin: 0;
+}
+.container h1 {
+  padding: 20px;
+  margin: 0;
+}
+.container p {
+  margin: 0;
+}
+.paper img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin: 2em;
+}
+.paper h2 {
+  margin-top: 10px;
+}
+.paper p {
+  margin-bottom: 50px;
+}
+
+.flex-container {
+  margin-left: 12%;
+  display: flex;
+  flex-direction: row;
+}
+
+.paper {
+  /* border: 200px; */
+  border: 1px solid white;
+  margin: 20px;
+}
+.container1 {
+  margin: 0;
+  text-align: center;
+}
+.container1 hr {
+  width: 30%;
+  text-align: center;
+  height: 2px;
+  background-color: rgb(21, 162, 218);
+}
+.flex-container1 {
+  margin-left: 12%;
+  display: flex;
+  flex-direction: row;
+}
+.paper-team {
+  border: 1px solid black;
+  margin: 20px;
+}
+.paper-team img {
+  width: 200px;
+  height: 200px;
+  margin: 2em;
+}
