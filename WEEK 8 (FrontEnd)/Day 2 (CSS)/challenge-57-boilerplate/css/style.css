@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Header section*/
+.header-container {
+  background-color: #e62e00d0;
+  height: 20vh;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo img {
+  width: 250px;
+  height: 20vh;
+}
+.contact-info {
+  margin-right: 15px;
+  padding: 5px;
+}
+.contact-info p {
+  text-align: right;
+  color: wheat;
+}
+
+.nav-bar {
+  margin-left: 12%;
+  text-align: right;
+}
+.nav-bar ul {
+  padding: 12vh;
+  list-style-type: none;
+}
+.nav-bar ul li {
+  display: inline;
+  padding: 1em;
+}
+.nav-bar ul li a {
+  text-decoration: none;
+  color: wheat;
+}
+.nav-bar ul li a:hover {
+  color: #cc8b7ad0;
+  border-bottom: 1px solid cadetblue;
+}
+
+/* introduction section*/
+.introduction {
+  margin: 20px;
+  font: "Lucida Console";
+}
+h2 {
+  color: rgb(102, 26, 26);
+  font-family: "Lucida Handwriting";
+  margin-bottom: 0;
+}
+
+.introduction p {
+  margin-top: 0px;
+  padding: 0%;
+  color: rgb(31, 29, 29);
+}
+
+/* Specialities section */
+.middle-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  margin: 20px;
+  font: "Lucida Console";
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.paper-flex-row {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.paper img {
+  background-color: aliceblue;
+  box-shadow: 5px 10px 10px grey;
+  padding: 1em;
+  text-align: center;
+  height: 220px;
+  width: 350px;
+}
+.paper p {
+  text-align: center;
+  color: rgb(102, 26, 26);
+}
+
+/*quick Menu */
+
+h3 {
+  color: rgb(102, 26, 26);
+  margin-left: 50px;
+  margin-bottom: 0px;
+  font-family: "Lucida Console";
+}
+
+.quick-menu ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.quick-menu li {
+  background-color: #e62e00d0;
+  margin: 2px;
+  color: wheat;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
+  text-align: center;
+}
+.quick-menu ul li a:hover {
+  color: green;
+  border-bottom: 1px solid black;
+}
+.quick-menu a {
+  color: wheat;
+}
+/*footer */
+footer {
+  background-color: #e62e00d0;
+  height: 50px;
+  text-align: center;
+  padding-top: 7px;
+}
