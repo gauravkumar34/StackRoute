@@ -1,0 +1,72 @@
+.container-fluid {
+  text-align: center;
+}
+.carousel-item img {
+  width: 100%;
+  height: 650px;
+}
+.main-section {
+  margin: 20px;
+  text-align: center;
+}
+.hr1 {
+  width: 10%;
+  margin-left: 40em;
+  border-width: 2px;
+  border-style: inset;
+  background-color: green;
+  border-color: solid green;
+}
+.hr2 {
+  padding-top: 0px;
+  width: 10%;
+  margin-left: 39em;
+  border-width: 2px;
+  border: 2px solid rgb(11, 251, 11);
+  border-radius: 5px;
+  border-style: inset;
+}
+.container {
+  /* text-align: center; */
+  padding: 20px;
+  margin: 30px;
+}
+.container img {
+  height: 100%;
+  width: 100%;
+}
+.container h1 {
+  text-align: center;
+}
+.container h4 {
+  text-align: left;
+}
+footer {
+  color: white;
+  align: center;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin: 0px;
+  background: url(https://frsinc.co/wp-content/uploads/students-background.jpg);
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+}
+.Info {
+  padding: 40px;
+}
+footer .btn {
+  margin-top: 10px;
+}
+
+footer i {
+  padding-top: 10px;
+}
+footer .fab {
+  color: rgb(28, 28, 200);
+}

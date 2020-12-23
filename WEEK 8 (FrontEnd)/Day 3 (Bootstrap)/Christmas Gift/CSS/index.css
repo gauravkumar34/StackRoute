@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.bg-light {
+  background-color: rgb(250, 221, 226) !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+}
+
+.display-5 {
+  margin-top: 30px;
+  text-align: center;
+}
+article img {
+  width: 320px;
+  height: 160px;
+}
+
+.paper {
+  background-color: aliceblue;
+  box-shadow: 5px 10px 20px grey;
+  padding: 1em;
+  text-align: center;
+}
+
+footer {
+  color: wheat;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(65, 5, 54);
+  margin: 0;
+  text-align: center;
+}
+.type {
+  padding-top: 40px;
+}
+i {
+  padding: 5px;
+}

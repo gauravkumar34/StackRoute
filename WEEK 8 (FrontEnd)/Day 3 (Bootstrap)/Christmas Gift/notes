@@ -1,0 +1,6 @@
+Bootstrap
+-----------
+A CSS framework to design web pages with a default style using Bootstrap 
+-----------------------
+install Bootstrap -> npm -> link css , js -> default css 
+cdn links -> internet -> pull the css from a repo on the web 
