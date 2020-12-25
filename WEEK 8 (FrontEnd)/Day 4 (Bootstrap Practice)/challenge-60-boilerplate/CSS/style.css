@@ -1,0 +1,75 @@
+body {
+  /* background: url("https://image.pbs.org/video-assets/RTVs5aF-asset-mezzanine-16x9-sq4HMGE.jpg"); */
+  font-family: "Andika New Basic", sans-serif;
+}
+.imgg {
+  padding-top: 0%;
+}
+
+.row {
+  width: 100%;
+}
+.bg-dark {
+  background: transparent !important;
+}
+.bg-light {
+  color: white;
+  background: green !important;
+}
+.bg-dark.scrolled {
+  background: rgb(88, 88, 151) !important;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 35%;
+  left: 16%;
+}
+
+.centered {
+  color: white;
+  font-family: italic;
+  font-size: 7em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.third-pic {
+  padding: 10px;
+  padding-left: 30%;
+}
+.imgg img {
+  width: 100%;
+  height: 100%;
+}
+.row {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.img-col img {
+  width: 300px;
+  height: 300px;
+}
+.footer {
+  color: white;
+  background-color: rgb(8, 8, 92);
+}
+.social-media {
+  padding: 20px;
+  text-align: center;
+}
+.social-media i {
+  padding: 10px;
+}
+.quote {
+  font-family: monospace;
+  padding: 30px;
+  margin-top: 30px;
+}
+.details h2 {
+  padding-top: 10%;
+  font-size: 3em;
+  font-family: fantasy;
+  margin-top: 90px;
+}
