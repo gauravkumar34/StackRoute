@@ -1,0 +1,31 @@
+{
+  "name": "working-with-datatypes",
+  "version": "1.0.0",
+  "description": "This project helps you to create the basic data types like number, string, null , undefined , object in JavaScript",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./solution/WorkingWithDataTypes.js",
+    "test": "mocha --watch ./test/WorkingWithDataTypes.spec.js",
+    "eslint": "./node_modules/.bin/eslint *.js '**/*.js' '../*.spec.js'"
+  },
+  "keywords": [
+    "JavaScript",
+    "Data",
+    "Types",
+    "number",
+    "string",
+    "null",
+    "undefined",
+    "object"
+  ],
+  "author": "Madhu Samala",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
+  }
+}
