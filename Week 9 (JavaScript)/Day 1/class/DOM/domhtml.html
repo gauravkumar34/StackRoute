@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Manipulation</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Table of Books</h1>
+    <div class="container">
+        <h2>Books and Authors</h2>
+        <label for="author-name">Enter Author Name : </label>
+        <input type="text" id="author-name">
+        <br>
+        <label for="author-name">Enter Book Name : </label>
+        <input type="text" id="book-name">
+        <br>
+        <br>
+        <table class="table table-striped" id="bookTable">
+            <thead>
+                <tr>
+                    <th>Author Name</th>
+                    <th>Book Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>T S Elliot</td>
+                    <td> Jane Eyre </td>
+                </tr>
+                <tr>
+                    <td>Enid Blyton</td>
+                    <td>Famous Five</td>
+                </tr>
+                <tr>
+                    <td>Mark Twain</td>
+                    <td>A tale of two cities</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
