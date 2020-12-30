@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-header {
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+}
+
+.row {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.img-container {
+  width: 19.9rem;
+  height: 12rem;
+}
+/*# sourceMappingURL=main.css.map */
