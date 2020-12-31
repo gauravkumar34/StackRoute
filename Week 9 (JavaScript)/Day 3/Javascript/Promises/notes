@@ -1,0 +1,23 @@
+setTimeOut
+AJAX Calls
+Promises
+
+proxy for a value that will be returned in the future
+response -> data from the server/ error message
+
+
+API
+----
+
+db.json -> simulated an API
+
+postman -> methods
+
+
+Javascript -> Fetch API
+
+GET PUT POST DELETE
+x = 5
+y ="5"
+x==y -> true
+x===y -> numbers/strings and the value

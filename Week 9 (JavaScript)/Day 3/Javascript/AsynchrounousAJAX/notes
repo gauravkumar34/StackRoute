@@ -1,0 +1,54 @@
+Javascript -> language compatible with a browser
+           -> all client side queries we write using JS
+
+Webpage -> submits some information to a server
+
+register -> 5 fields etc... -> submit to a server
+
+onsubmit() -> make a call to the server for validation 
+
+password -> format -> karen@1234
+
+pressing the button -> validation -> redirect to the register
+
+textbox box -> message must -> dialog box/ reset ....
+
+make a call to a server -> server responds back
+
+javascript -> make the call 
+
+10 text boxes -> 2nd textbox -> call is made
+
+-> 10 
+
+
+js -> calling a function -> completes -> single threaded
+
+async calls-> 
+
+setTimeOut()
+AJAX -> 
+Promises ->
+
+
+
+frontend -> enterdetails -> submit -> response is sent back 
+
+gmail login -> userid,pwd -> next page(inbox)
+
+html -> calls to an API -> response back (data)
+
+
+REST API -> gives out json objects
+
+Running the json server
+1. >json-server db.json
+2. >json-server -w db.json
+3. >json-server -s public -w db.json
+
+
+Method -> 
+GET
+POST
+PUT
+DELETE
