@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.spaceing {
+  margin: 1rem;
+}
+.spaceing2 {
+  align-items: left;
+  margin-left: 3rem;
+}
+.spaceing3 {
+  margin-top: 3rem;
+}
