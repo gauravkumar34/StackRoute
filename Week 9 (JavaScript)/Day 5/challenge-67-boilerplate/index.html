@@ -64,23 +64,29 @@
     <section class="card">
       <h4 class="card-header">Explore</h4>
       <form>
-        <div class="form-group">
+        <class class="form-group">
           <label for="countQueryRepositoryInput">Repository</label>
-          <input
+          <!-- <select id="countQueryRepositoryInput" name="brand"></select> -->
+          <select
             type="text"
             class="form-control"
             id="countQueryRepositoryInput"
+            value="Refhgj"
             placeholder="Type repository name here"
-          />
+          ><option value="" hidden>Repository Name</option>
+        </select>
+
         </div>
         <div class="form-group">
           <label for="countQueryIssueType">Count</label>
-          <input
+
+          <select
             type="text"
             class="form-control"
             id="countQueryIssueType"
             placeholder="Type count type (total / open / my_issues)"
-          />
+          >
+        <option value="" hidden>Select Count type</option></select>
         </div>
         <input
           type="submit"

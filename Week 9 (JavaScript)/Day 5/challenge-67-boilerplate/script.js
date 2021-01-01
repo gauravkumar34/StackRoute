@@ -21,3 +21,20 @@ function myFunction() {
     }
   }
 }
+
+let array = document.getElementsByTagName("th");
+for (let index = 4; index < array.length; index++) {
+  const element = array[index];
+  const x = document.getElementById("countQueryRepositoryInput");
+  const option = document.createElement("option");
+  option.text = element.innerHTML;
+  x.appendChild(option);
+  console.log(element);
+}
+for (let index = 1; index < 4; index++) {
+  const element = array[index];
+  const y = document.getElementById("countQueryIssueType");
+  const option = document.createElement("option");
+  option.text = element.innerHTML;
+  y.appendChild(option);
+}
