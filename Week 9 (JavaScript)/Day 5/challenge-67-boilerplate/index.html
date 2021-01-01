@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Assignment</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <style>
+      section {
+        margin: 2em;
+      }
+
+      form {
+        margin: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <div class="card-header d-flex flex-row">
+        <h4 class="col">Issues Summary</h4>
+        <button type="button" class="btn btn-primary">Open</button>
+      </div>
+      <table class="table table-striped" id="tableRepo">
+        <thead>
+          <tr>
+            <th></th>
+            <th>total</th>
+            <th>open</th>
+            <th>my_issues</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>sagar.patke/bootstrap-assignment</th>
+            <td>5</td>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th>sagar.patke/javascript-assignment</th>
+            <td>6</td>
+            <td>3</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <th>sagar.patke/angular-assignment</th>
+            <td>4</td>
+            <td>1</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <th>sagar.patke/java-assignment</th>
+            <td>7</td>
+            <td>4</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="card">
+      <h4 class="card-header">Explore</h4>
+      <form>
+        <div class="form-group">
+          <label for="countQueryRepositoryInput">Repository</label>
+          <input
+            type="text"
+            class="form-control"
+            id="countQueryRepositoryInput"
+            placeholder="Type repository name here"
+          />
+        </div>
+        <div class="form-group">
+          <label for="countQueryIssueType">Count</label>
+          <input
+            type="text"
+            class="form-control"
+            id="countQueryIssueType"
+            placeholder="Type count type (total / open / my_issues)"
+          />
+        </div>
+        <input
+          type="submit"
+          value="Go!"
+          onclick="myFunction()"
+          class="btn btn-primary"
+          on
+        />
+        <span id="count"></span>
+      </form>
+    </section>
+    <script src="script.js"></script>
+    <script
+      type="text/javascript"
+      src="/node_modules/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/node_modules/bootstrap/dist/js/bootstrap.min.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
