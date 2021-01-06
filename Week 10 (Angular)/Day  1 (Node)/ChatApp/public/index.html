@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" />
+    <title>Chat Application</title>
+  </head>
+  <body class="container mt-3">
+    <section class="card">
+      <h3 card="card-header">Chat Room</h3>
+      <form onsubmit="sendMessage(event)">
+        <div id="chathistory" class="d-flex flex-column">
+          <!--contain all messaged from various clients-->
+        </div>
+        <hr />
+        <!--user-->
+        <div class="form-group">
+          <label for="user">User</label>
+          <input
+            type="text"
+            class="form-control"
+            id="user"
+            placeholder="Type your name"
+          />
+        </div>
+        <!--message-->
+        <div class="form-group">
+          <label for="message">Message</label>
+          <input
+            type="text"
+            class="form-control"
+            id="message"
+            placeholder="Type your message"
+          />
+        </div>
+        <input type="submit" value="Go!" class="btn btn-primary" />
+      </form>
+      <script src="jquery/dist/jquery.min.js"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+      <script src="socket.io-client/dist/socket.io.js"></script>
+      <script>
+        const socket = io("http://localhost:3010");
+        function sendMessage(event) {
+          event.preventDefault();
+          let user = document.getElementById("user").value;
+          let msg = document.getElementById("message").value;
+          socket.emit("msg", `${user} - ${msg}`);
+          let div = document.createElement("div");
+          div.innerHTML = `${user} - ${msg}`;
+          document.getElementById("chathistory").appendChild(div);
+        }
+
+        //any message from the server must be captured
+
+        socket.on("server-msg", (msg) => {
+          let div = document.createElement("div");
+          div.innerHTML = msg;
+          document.getElementById("chathistory").appendChild(div);
+        });
+      </script>
+    </section>
+  </body>
+</html>
