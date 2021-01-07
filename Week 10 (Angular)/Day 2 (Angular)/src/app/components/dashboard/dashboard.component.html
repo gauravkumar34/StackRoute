@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Welcome {{ name }}</h3>
+      <p>Sum of 1 + 1 is {{ 1 + 1 }}</p>
+      <input type="text" [disabled]="isDisabled" />
+      <h2 [ngClass]="myStyle">StackRoute</h2>
+      <h2 [style.color]="hasError ? 'red' : 'green'">Golu</h2>
+      <h2 [ngStyle]="style1">Using Style binding</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Two way Binding</h2>
+      <input type="text" [(ngModel)]="username" />
+      <h1 [ngClass]="myStyle">{{ username }}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Event Binding</h2>
+      <input type="text" [(ngModel)]="username" />
+      <button (click)="onCLickHandler()" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</div>
