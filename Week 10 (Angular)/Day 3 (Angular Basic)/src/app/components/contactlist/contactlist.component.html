@@ -1,0 +1,12 @@
+<p>ComponentIntraction</p>
+<h2>{{ username }}</h2>
+<button type="button" value="send" (click)="sendData()">
+  Send Data to parent
+</button>
+
+<input type="text" #input />
+<button (click)="onCalculate(input.value)">type</button>
+<p>{{ result }}</p>
+<input type="text" #input1 />
+<button (click)="onCalculateP(input1.value)">Prime Number</button>
+<p>{{ results }}</p>

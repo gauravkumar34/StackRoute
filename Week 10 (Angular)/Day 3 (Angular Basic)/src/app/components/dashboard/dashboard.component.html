@@ -1,0 +1,71 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h2>referace veriable</h2>
+      <input type="text" #username />
+      <button (click)="onCLickHandler(username.value)" class="btn btn-success">
+        Show
+      </button>
+    </div>
+    <div class="col-md-4">
+      <h2>User Defined Directive</h2>
+      <h2 appHighlight>Welcome to Angular</h2>
+    </div>
+    <h2>Structural Directives</h2>
+    <div class="col-md-4" *ngIf="isLoggedIn">
+      <!--!ngIf-->
+      <h2>Welcome Gaurav</h2>
+    </div>
+    <div class="col-md-4" *ngIf="!isLoggedIn">
+      <!--! ngIf-->
+      <h2>Please LoggIn</h2>
+    </div>
+    <div [ngSwitch]="day">
+      <!--! switchcase-->
+      <p *ngSwitchCase="1">Monday</p>
+      <p *ngSwitchCase="2">Tuesday</p>
+      <p *ngSwitchCase="3">Webnesday</p>
+      <p *ngSwitchCase="4">Thursday</p>
+      <p *ngSwitchCase="5">friday</p>
+      <p *ngSwitchDefault>Off Day</p>
+    </div>
+
+    <div>
+      <!--! ngFor-->
+      <ul *ngFor="let c of countries">
+        <li>{{ c }}</li>
+      </ul>
+      <br />
+    </div>
+    <div *ngFor="let c of countries; let i = index; let o = odd">
+      <p *ngIf="o" style="background-color: yellow">{{ c }}</p>
+      <br />
+      <p *ngIf="!o" style="background-color: red; color: aliceblue">{{ c }}</p>
+    </div>
+
+    <div class="col-md-12">
+      <table>
+        <tr>
+          <th>id</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+        </tr>
+        <tr *ngFor="let p of persons">
+          <td>{{ p.id }}</td>
+          <td>{{ p.fName }}</td>
+          <td>{{ p.lname }}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem" *ngFor="let p of persons">
+        <img class="card-img-top" src="{{ p.Image }}" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">{{ p.fname }}</h5>
+          <p class="card-text">{{ p.fname }}</p>
+          <p class="card-text">{{ p.lname }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
