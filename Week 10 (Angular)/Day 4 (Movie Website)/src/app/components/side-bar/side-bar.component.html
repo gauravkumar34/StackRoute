@@ -1,0 +1,17 @@
+<div
+  style="
+    background-color: rgba(0, 0, 0, 0.575);
+    color: aliceblue;
+    margin: auto;
+    height: 100%;
+  "
+>
+  <h2 class="text-center">Categories</h2>
+  <div class="text-left px-3">
+    <h2 class="mt-4 btn" *ngFor="let item of categoryList">
+      <a href="#" style="text-underline-offset: none; color: aliceblue"
+        >{{ item }}
+      </a>
+    </h2>
+  </div>
+</div>
