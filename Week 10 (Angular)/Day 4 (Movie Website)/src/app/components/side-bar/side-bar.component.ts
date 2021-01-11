@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import category from './_files/category.json'
+import { MoviesService } from "src/app/services/movies.service";
 @Component({
   selector: 'app-side-bar',
   templateUrl: './side-bar.component.html',
@@ -7,12 +7,16 @@ import category from './_files/category.json'
 })
 export class SideBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private services : MoviesService) { }
 
   ngOnInit(): void {
+    this.GetAllCategories();
   }
-  public categoryList:{
-    name:String[] 
-  }= category;
+  public getcategory;
   
+  GetAllCategories() {
+    this.services.GetCategories().subscribe(data => {
+      this.getcategory = data;
+    })
+  }
 }

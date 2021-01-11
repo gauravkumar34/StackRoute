@@ -6,6 +6,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { HttpClientModule } from "@angular/common/http";
+import { MoviesService } from "./services/movies.service";
 
 @NgModule({
   declarations: [
@@ -13,10 +15,11 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     HeaderComponent,
     FooterComponent,
     DashboardComponent,
-    SideBarComponent
+    SideBarComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
