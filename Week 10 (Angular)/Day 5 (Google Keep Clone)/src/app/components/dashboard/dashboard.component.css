@@ -1,0 +1,15 @@
+.container{
+    align-items: center !important;
+}
+.box {
+  margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+input{
+    border: 0ch;
+  }
+.card-body textarea{
+  width: 18rem;
+}

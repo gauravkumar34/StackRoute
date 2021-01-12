@@ -3,29 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { SideMenuComponent } from './components/side-menu/side-menu.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { HttpClientModule } from "@angular/common/http";
-import { MoviesService } from "./services/movies.service";
-import { FilterPipe } from './pipes/filter.pipe';
+import { TodoService } from "./services/todo.service";
 import { FormsModule } from '@angular/forms';
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent,
+    SideMenuComponent,
     DashboardComponent,
-    SideBarComponent,
-    FilterPipe,
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [TodoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

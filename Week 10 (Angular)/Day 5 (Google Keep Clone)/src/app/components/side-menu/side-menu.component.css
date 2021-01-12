@@ -1,0 +1,16 @@
+#nav1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 15%;
+  }
+
+li{
+      list-style-type: none;
+      margin-top: 1rem;
+  }
+
+.margin-top{
+  margin-top: 4rem;
+}

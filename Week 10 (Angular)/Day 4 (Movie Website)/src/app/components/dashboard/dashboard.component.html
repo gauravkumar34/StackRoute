@@ -55,16 +55,24 @@
   </a>
 </div>
 
-<div class="row m-4">
-  <div class="col-md-10">
-    <div class="alert alert-primary mt-4 text-center" role="alert">
+<input
+  class="form-control m-4"
+  type="search"
+  placeholder="Search Movie Name"
+  aria-label="Search"
+  style="width: 13rem"
+  [(ngModel)]="nameSearch"
+/>
+<div class="row m-2">
+  <div class="col-md-8">
+    <div class="alert alert-primary text-center" role="alert">
       <h4>Top Movies</h4>
     </div>
     <div class="row">
       <div
         class="card"
         style="width: 18rem; align-items: center"
-        *ngFor="let item of getMovies"
+        *ngFor="let item of getMovies | filter: nameSearch"
       >
         <img
           class="card-img-top"
@@ -89,19 +97,16 @@
       </div>
     </div>
   </div>
-  <div class="col-md-2">
-    <div
-      class="alert alert-primary mt-4 text-center"
-      style="width: 13rem"
-      role="alert"
-    >
+  <div class="col-md-4">
+    <div class="alert alert-primary text-center" role="alert">
       <h4>Favourites</h4>
     </div>
-    <div class="card" style="width: 11rem" *ngFor="let item of getFavmovs">
+    <div class="card" *ngFor="let item of getFavmovs">
       <div class="card-body">
-        <h5 class="card-title text-left">
+        <h5 class="card-title">
           {{ item.title }}
         </h5>
+        <span href="#" class="badge badge-info mr-5">{{ item.year }}</span>
 
         <!-- <input
           type="checkbox"
@@ -113,12 +118,12 @@
           [ngStyle]="{
             'background-color': item.watched ? 'green' : 'none'
           }"
-          class="badge badge-secondary"
+          class="badge badge-secondary mr-4"
         >
           <span *ngIf="item.watched">Watched</span>
           <span *ngIf="!item.watched">Not Watched</span>
         </button>
-        <br />
+
         <button class="badge badge-danger" (click)="DeleteFromFav(item)">
           Delete
         </button>

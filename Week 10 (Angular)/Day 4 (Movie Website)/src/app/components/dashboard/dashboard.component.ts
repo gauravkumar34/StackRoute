@@ -11,18 +11,24 @@ export class DashboardComponent implements OnInit {
   constructor(private services : MoviesService) { }
 
   public getMovies : any;
+  
   public getMovieName :string ='';
   public getFavmovs : any;
   ngOnInit(){
     this.GetAllMovies();
     this.GetAllFav();
   }
+  nameSearch:string ='';
+
+  public allMovieSearchArray: Array<string>;
 
   GetAllMovies() {
     this.services.GetMovies().subscribe(data => {
       this.getMovies = data;
+      data =this.allMovieSearchArray;
     })
   }
+  
 
   GetAllFav() {
     this.services.GetFavMovies().subscribe(data => {

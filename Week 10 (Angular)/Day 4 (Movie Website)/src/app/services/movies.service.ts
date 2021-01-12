@@ -31,4 +31,6 @@ export class MoviesService {
   UpdateItem(id:number, item: any) {
     return this.http.put(`http://localhost:3000/favorites/${id}`,item)
   }
+
+  
 }

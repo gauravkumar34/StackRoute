@@ -1,0 +1,102 @@
+<div class="container">
+  <div class="box">
+    <div class="card text-white bg-dark m-4" style="width: 40rem">
+      <div class="bg-dark" style="width: 40rem">
+        <input
+          class="card-header text-white"
+          placeholder="Title"
+          [(ngModel)]="titleItem"
+          onfocus="this.value=''"
+          style="width: 40rem"
+        /><br />
+        <input
+          class="card-body bg-dark text-white"
+          placeholder="Take a note..."
+          [(ngModel)]="taskItem"
+          (keyup.enter)="AddToItem()"
+          onfocus="this.value=''"
+          style="width: 40rem"
+        />
+        <button
+          (click)="AddToItem()"
+          (key.enter)="AddToItem()"
+          type="button"
+          class="btn btn-dark"
+          style="margin-left: 90%; margin-bottom: 1rem"
+        >
+          <i class="fas fa-plus-circle"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <h2>To Do List</h2>
+  <div class="row">
+    <div
+      class="card text-white bg-dark m-3"
+      *ngFor="let item of todoItems"
+      style="width: 20rem"
+    >
+      <i
+        class="far fa-edit mt-2"
+        style="margin-left: 18rem"
+        (click)="editTodo(item)"
+      ></i>
+      <div *ngIf="!item.editing" class="card-header">
+        <!-- (dblclick)="editTodo(item)" -->
+        {{ item.title }}
+      </div>
+      <!-- <ng-template #editingToDo> -->
+      <input
+        *ngIf="item.editing"
+        type="text"
+        class="card-header text-white"
+        [(ngModel)]="item.title"
+        (keyup.enter)="doneEdit(item)"
+      />
+      <!-- </ng-template> -->
+
+      <div class="card-body">
+        <div *ngIf="!item.editing" class="card-title">{{ item.task }}</div>
+        <textarea
+          *ngIf="item.editing"
+          type="text"
+          class="card-title bg-dark text-white"
+          [(ngModel)]="item.task"
+          (keyup.enter)="doneEdit(item)"
+          (keyup.enter)="updateTask(item)"
+          (blur)="doneEdit(item)"
+        ></textarea>
+      </div>
+      <i
+        (click)="DeleteItem(item)"
+        (click)="AddTrash(item)"
+        class="fas fa-trash-alt float-end text-danger m-3"
+      ></i>
+    </div>
+  </div>
+
+  <h2>Trash Data</h2>
+  <div class="row">
+    <div
+      class="card text-white bg-dark m-3"
+      *ngFor="let item of trashDatas"
+      style="width: 20rem"
+    >
+      <div class="card-header">{{ item.title }}</div>
+      <div class="card-title text-white ml-3">{{ item.task }}</div>
+      <div>
+        <i
+          (click)="PermanentDeleteItem(item)"
+          class="fas fa-trash-alt float-end text-danger m-3"
+          >Permanent Delete</i
+        >
+        <i
+          class="fa fa-retweet text-success ml-4"
+          (click)="PermanentDeleteItem(item)"
+          (click)="restoreData(item)"
+          >Restore</i
+        >
+      </div>
+    </div>
+  </div>
+</div>

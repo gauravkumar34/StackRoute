@@ -5,25 +5,18 @@
       "title": "Beetlejuice",
       "year": "1988",
       "runtime": "92",
-      "genres": [
-        "Comedy",
-        "Fantasy"
-      ],
+      "genres": ["Comedy", "Fantasy"],
       "director": "Tim Burton",
       "actors": "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page",
       "plot": "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house.",
-      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg"
+      "posterUrl": "https://lh3.googleusercontent.com/proxy/pufa8BDSZlwv_q1ysNFczt1A0uzISHcu62jK66lWWJQ6bwI1ETM9BYHo3mpjs3wV8DTwsp6OHV2hYE28NJZWF-BKZRNumnQPki8dZMxCw7nG1yRndHJOCGMH9yszE13d8E5wqW4jHT2TExNv8Gw90lt6dQ"
     },
     {
       "id": 2,
       "title": "The Cotton Club",
       "year": "1984",
       "runtime": "127",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Music"
-      ],
+      "genres": ["Crime", "Drama", "Music"],
       "director": "Francis Ford Coppola",
       "actors": "Richard Gere, Gregory Hines, Diane Lane, Lonette McKee",
       "plot": "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous.",
@@ -34,24 +27,18 @@
       "title": "The Shawshank Redemption",
       "year": "1994",
       "runtime": "142",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Frank Darabont",
       "actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
       "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg"
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTU1NTUwMjQxN15BMl5BanBnXkFtZTgwOTQ2MjEyMDE@._V1_.jpg"
     },
     {
       "id": 4,
       "title": "Crocodile Dundee",
       "year": "1986",
       "runtime": "97",
-      "genres": [
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Adventure", "Comedy"],
       "director": "Peter Faiman",
       "actors": "Paul Hogan, Linda Kozlowski, John Meillon, David Gulpilil",
       "plot": "An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.",
@@ -62,26 +49,18 @@
       "title": "Valkyrie",
       "year": "2008",
       "runtime": "121",
-      "genres": [
-        "Drama",
-        "History",
-        "Thriller"
-      ],
+      "genres": ["Drama", "History", "Thriller"],
       "director": "Bryan Singer",
       "actors": "Tom Cruise, Kenneth Branagh, Bill Nighy, Tom Wilkinson",
       "plot": "A dramatization of the 20 July assassination and political coup plot by desperate renegade German Army officers against Hitler during World War II.",
-      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTg3Njc2ODEyN15BMl5BanBnXkFtZTcwNTAwMzc3NA@@._V1_SX300.jpg"
+      "posterUrl": "https://ksr-ugc.imgix.net/assets/028/246/235/9c74eeca592058febb32ab15b8f4666a_original.jpg?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1582818604&auto=format&frame=1&q=92&s=b7b19ac9c00946cda34c16e95b6da95d"
     },
     {
       "id": 6,
       "title": "Ratatouille",
       "year": "2007",
       "runtime": "111",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family"
-      ],
+      "genres": ["Animation", "Comedy", "Family"],
       "director": "Brad Bird, Jan Pinkava",
       "actors": "Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy",
       "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
@@ -92,10 +71,7 @@
       "title": "City of God",
       "year": "2002",
       "runtime": "130",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Fernando Meirelles, Kátia Lund",
       "actors": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva",
       "plot": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.",
@@ -106,40 +82,29 @@
       "title": "Memento",
       "year": "2000",
       "runtime": "113",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Thriller"],
       "director": "Christopher Nolan",
       "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
       "plot": "A man juggles searching for his wife's murderer and keeping his short-term memory loss from being an obstacle.",
-      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNThiYjM3MzktMDg3Yy00ZWQ3LTk3YWEtN2M0YmNmNWEwYTE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/I/71DJIt8Q3OL._SL1094_.jpg"
     },
     {
       "id": 9,
       "title": "The Intouchables",
       "year": "2011",
       "runtime": "112",
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Biography", "Comedy", "Drama"],
       "director": "Olivier Nakache, Eric Toledano",
       "actors": "François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot",
       "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
-      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX300.jpg"
+      "posterUrl": "https://i.pinimg.com/originals/6b/c2/26/6bc2262ad56690f04bb0e7a9ef6bc66c.jpg"
     },
     {
       "id": 10,
       "title": "Stardust",
       "year": "2007",
       "runtime": "127",
-      "genres": [
-        "Adventure",
-        "Family",
-        "Fantasy"
-      ],
+      "genres": ["Adventure", "Family", "Fantasy"],
       "director": "Matthew Vaughn",
       "actors": "Ian McKellen, Bimbo Hart, Alastair MacIntosh, David Kelly",
       "plot": "In a countryside town bordering on a magical land, a young man makes a promise to his beloved that he'll retrieve a fallen star by venturing into the magical realm.",
@@ -150,11 +115,7 @@
       "title": "Apocalypto",
       "year": "2006",
       "runtime": "139",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
+      "genres": ["Action", "Adventure", "Drama"],
       "director": "Mel Gibson",
       "actors": "Rudy Youngblood, Dalia Hernández, Jonathan Brewer, Morris Birdyellowhead",
       "plot": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
@@ -165,25 +126,18 @@
       "title": "Taxi Driver",
       "year": "1976",
       "runtime": "113",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Martin Scorsese",
       "actors": "Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito",
       "plot": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
-      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGQxNDgzZWQtZTNjNi00M2RkLWExZmEtNmE1NjEyZDEwMzA5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+      "posterUrl": "https://www.omnia-cinemas.com/evenement/taxi-driver-imp2.jpg"
     },
     {
       "id": 13,
       "title": "No Country for Old Men",
       "year": "2007",
       "runtime": "122",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Ethan Coen, Joel Coen",
       "actors": "Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",
       "plot": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
@@ -194,11 +148,7 @@
       "title": "Planet 51",
       "year": "2009",
       "runtime": "91",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
+      "genres": ["Animation", "Adventure", "Comedy"],
       "director": "Jorge Blanco, Javier Abad, Marcos Martínez",
       "actors": "Jessica Biel, John Cleese, Gary Oldman, Dwayne Johnson",
       "plot": "An alien civilization is invaded by Astronaut Chuck Baker, who believes that the planet was uninhabited. Wanted by the military, Baker must get back to his ship before it goes into orbit without him.",
@@ -209,11 +159,7 @@
       "title": "Looper",
       "year": "2012",
       "runtime": "119",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Action", "Crime", "Drama"],
       "director": "Rian Johnson",
       "actors": "Joseph Gordon-Levitt, Bruce Willis, Emily Blunt, Paul Dano",
       "plot": "In 2074, when the mob wants to get rid of someone, the target is sent into the past, where a hired gun awaits - someone like Joe - who one day learns the mob wants to 'close the loop' by sending back Joe's future self for assassination.",
@@ -224,11 +170,7 @@
       "title": "Corpse Bride",
       "year": "2005",
       "runtime": "77",
-      "genres": [
-        "Animation",
-        "Drama",
-        "Family"
-      ],
+      "genres": ["Animation", "Drama", "Family"],
       "director": "Tim Burton, Mike Johnson",
       "actors": "Johnny Depp, Helena Bonham Carter, Emily Watson, Tracey Ullman",
       "plot": "When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her.",
@@ -239,11 +181,7 @@
       "title": "The Third Man",
       "year": "1949",
       "runtime": "93",
-      "genres": [
-        "Film-Noir",
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Film-Noir", "Mystery", "Thriller"],
       "director": "Carol Reed",
       "actors": "Joseph Cotten, Alida Valli, Orson Welles, Trevor Howard",
       "plot": "Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.",
@@ -254,11 +192,7 @@
       "title": "The Beach",
       "year": "2000",
       "runtime": "119",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Adventure", "Drama", "Romance"],
       "director": "Danny Boyle",
       "actors": "Leonardo DiCaprio, Daniel York, Patcharawan Patarakijjanon, Virginie Ledoyen",
       "plot": "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
@@ -269,10 +203,7 @@
       "title": "Scarface",
       "year": "1983",
       "runtime": "170",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Brian De Palma",
       "actors": "Al Pacino, Steven Bauer, Michelle Pfeiffer, Mary Elizabeth Mastrantonio",
       "plot": "In Miami in 1980, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
@@ -283,11 +214,7 @@
       "title": "Sid and Nancy",
       "year": "1986",
       "runtime": "112",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Music"
-      ],
+      "genres": ["Biography", "Drama", "Music"],
       "director": "Alex Cox",
       "actors": "Gary Oldman, Chloe Webb, David Hayman, Debby Bishop",
       "plot": "Morbid biographical story of Sid Vicious, bassist with British punk group the Sex Pistols, and his girlfriend Nancy Spungen. When the Sex Pistols break up after their fateful US tour, ...",
@@ -298,10 +225,7 @@
       "title": "Black Swan",
       "year": "2010",
       "runtime": "108",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Thriller"],
       "director": "Darren Aronofsky",
       "actors": "Natalie Portman, Mila Kunis, Vincent Cassel, Barbara Hershey",
       "plot": "A committed dancer wins the lead role in a production of Tchaikovsky's \"Swan Lake\" only to find herself struggling to maintain her sanity.",
@@ -312,11 +236,7 @@
       "title": "Inception",
       "year": "2010",
       "runtime": "148",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Sci-Fi"
-      ],
+      "genres": ["Action", "Adventure", "Sci-Fi"],
       "director": "Christopher Nolan",
       "actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",
       "plot": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
@@ -327,10 +247,7 @@
       "title": "The Deer Hunter",
       "year": "1978",
       "runtime": "183",
-      "genres": [
-        "Drama",
-        "War"
-      ],
+      "genres": ["Drama", "War"],
       "director": "Michael Cimino",
       "actors": "Robert De Niro, John Cazale, John Savage, Christopher Walken",
       "plot": "An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania.",
@@ -341,11 +258,7 @@
       "title": "Chasing Amy",
       "year": "1997",
       "runtime": "113",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Drama", "Romance"],
       "director": "Kevin Smith",
       "actors": "Ethan Suplee, Ben Affleck, Scott Mosier, Jason Lee",
       "plot": "Holden and Banky are comic book artists. Everything's going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's gay.",
@@ -356,10 +269,7 @@
       "title": "Django Unchained",
       "year": "2012",
       "runtime": "165",
-      "genres": [
-        "Drama",
-        "Western"
-      ],
+      "genres": ["Drama", "Western"],
       "director": "Quentin Tarantino",
       "actors": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington",
       "plot": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
@@ -370,11 +280,7 @@
       "title": "The Silence of the Lambs",
       "year": "1991",
       "runtime": "118",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Jonathan Demme",
       "actors": "Jodie Foster, Lawrence A. Bonney, Kasi Lemmons, Lawrence T. Wrentz",
       "plot": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
@@ -385,10 +291,7 @@
       "title": "American Beauty",
       "year": "1999",
       "runtime": "122",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Drama", "Romance"],
       "director": "Sam Mendes",
       "actors": "Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley",
       "plot": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.",
@@ -399,10 +302,7 @@
       "title": "Snatch",
       "year": "2000",
       "runtime": "102",
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Comedy", "Crime"],
       "director": "Guy Ritchie",
       "actors": "Benicio Del Toro, Dennis Farina, Vinnie Jones, Brad Pitt",
       "plot": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewelers fight to track down a priceless stolen diamond.",
@@ -413,11 +313,7 @@
       "title": "Midnight Express",
       "year": "1978",
       "runtime": "121",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Alan Parker",
       "actors": "Brad Davis, Irene Miracle, Bo Hopkins, Paolo Bonacelli",
       "plot": "Billy Hayes, an American college student, is caught smuggling drugs out of Turkey and thrown into prison.",
@@ -428,10 +324,7 @@
       "title": "Pulp Fiction",
       "year": "1994",
       "runtime": "154",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Quentin Tarantino",
       "actors": "Tim Roth, Amanda Plummer, Laura Lovelace, John Travolta",
       "plot": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
@@ -442,10 +335,7 @@
       "title": "Lock, Stock and Two Smoking Barrels",
       "year": "1998",
       "runtime": "107",
-      "genres": [
-        "Comedy",
-        "Crime"
-      ],
+      "genres": ["Comedy", "Crime"],
       "director": "Guy Ritchie",
       "actors": "Jason Flemyng, Dexter Fletcher, Nick Moran, Jason Statham",
       "plot": "A botched card game in London triggers four friends, thugs, weed-growers, hard gangsters, loan sharks and debt collectors to collide with each other in a series of unexpected events, all for the sake of weed, cash and two antique shotguns.",
@@ -456,11 +346,7 @@
       "title": "Lucky Number Slevin",
       "year": "2006",
       "runtime": "110",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": ["Crime", "Drama", "Mystery"],
       "director": "Paul McGuigan",
       "actors": "Josh Hartnett, Bruce Willis, Lucy Liu, Morgan Freeman",
       "plot": "A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.",
@@ -471,10 +357,7 @@
       "title": "Rear Window",
       "year": "1954",
       "runtime": "112",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Thriller"],
       "director": "Alfred Hitchcock",
       "actors": "James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter",
       "plot": "A wheelchair-bound photographer spies on his neighbours from his apartment window and becomes convinced one of them has committed murder.",
@@ -485,11 +368,7 @@
       "title": "Pan's Labyrinth",
       "year": "2006",
       "runtime": "118",
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "War"
-      ],
+      "genres": ["Drama", "Fantasy", "War"],
       "director": "Guillermo del Toro",
       "actors": "Ivana Baquero, Sergi López, Maribel Verdú, Doug Jones",
       "plot": "In the falangist Spain of 1944, the bookish young stepdaughter of a sadistic army officer escapes into an eerie but captivating fantasy world.",
@@ -500,10 +379,7 @@
       "title": "Shutter Island",
       "year": "2010",
       "runtime": "138",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Thriller"],
       "director": "Martin Scorsese",
       "actors": "Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Max von Sydow",
       "plot": "In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
@@ -514,11 +390,7 @@
       "title": "Reservoir Dogs",
       "year": "1992",
       "runtime": "99",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Crime", "Drama", "Thriller"],
       "director": "Quentin Tarantino",
       "actors": "Harvey Keitel, Tim Roth, Michael Madsen, Chris Penn",
       "plot": "After a simple jewelry heist goes terribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
@@ -529,10 +401,7 @@
       "title": "The Shining",
       "year": "1980",
       "runtime": "146",
-      "genres": [
-        "Drama",
-        "Horror"
-      ],
+      "genres": ["Drama", "Horror"],
       "director": "Stanley Kubrick",
       "actors": "Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers",
       "plot": "A family heads to an isolated hotel for the winter where an evil and spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.",
@@ -543,11 +412,7 @@
       "title": "Midnight in Paris",
       "year": "2011",
       "runtime": "94",
-      "genres": [
-        "Comedy",
-        "Fantasy",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Fantasy", "Romance"],
       "director": "Woody Allen",
       "actors": "Owen Wilson, Rachel McAdams, Kurt Fuller, Mimi Kennedy",
       "plot": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s everyday at midnight.",
@@ -558,11 +423,7 @@
       "title": "Les Misérables",
       "year": "2012",
       "runtime": "158",
-      "genres": [
-        "Drama",
-        "Musical",
-        "Romance"
-      ],
+      "genres": ["Drama", "Musical", "Romance"],
       "director": "Tom Hooper",
       "actors": "Hugh Jackman, Russell Crowe, Anne Hathaway, Amanda Seyfried",
       "plot": "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter. The decision changes their lives forever.",
@@ -573,11 +434,7 @@
       "title": "L.A. Confidential",
       "year": "1997",
       "runtime": "138",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery"
-      ],
+      "genres": ["Crime", "Drama", "Mystery"],
       "director": "Curtis Hanson",
       "actors": "Kevin Spacey, Russell Crowe, Guy Pearce, James Cromwell",
       "plot": "As corruption grows in 1950s LA, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",
@@ -588,11 +445,7 @@
       "title": "Moneyball",
       "year": "2011",
       "runtime": "133",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Sport"
-      ],
+      "genres": ["Biography", "Drama", "Sport"],
       "director": "Bennett Miller",
       "actors": "Brad Pitt, Jonah Hill, Philip Seymour Hoffman, Robin Wright",
       "plot": "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.",
@@ -603,9 +456,7 @@
       "title": "The Hangover",
       "year": "2009",
       "runtime": "100",
-      "genres": [
-        "Comedy"
-      ],
+      "genres": ["Comedy"],
       "director": "Todd Phillips",
       "actors": "Bradley Cooper, Ed Helms, Zach Galifianakis, Justin Bartha",
       "plot": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.",
@@ -616,9 +467,7 @@
       "title": "The Great Beauty",
       "year": "2013",
       "runtime": "141",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Paolo Sorrentino",
       "actors": "Toni Servillo, Carlo Verdone, Sabrina Ferilli, Carlo Buccirosso",
       "plot": "Jep Gambardella has seduced his way through the lavish nightlife of Rome for decades, but after his 65th birthday and a shock from the past, Jep looks past the nightclubs and parties to find a timeless landscape of absurd, exquisite beauty.",
@@ -629,9 +478,7 @@
       "title": "Gran Torino",
       "year": "2008",
       "runtime": "116",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Clint Eastwood",
       "actors": "Clint Eastwood, Christopher Carley, Bee Vang, Ahney Her",
       "plot": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his neighbor, a Hmong teenager who tried to steal Kowalski's prized possession: a 1972 Gran Torino.",
@@ -642,11 +489,7 @@
       "title": "Mary and Max",
       "year": "2009",
       "runtime": "92",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Drama"
-      ],
+      "genres": ["Animation", "Comedy", "Drama"],
       "director": "Adam Elliot",
       "actors": "Toni Collette, Philip Seymour Hoffman, Barry Humphries, Eric Bana",
       "plot": "A tale of friendship between two unlikely pen pals: Mary, a lonely, eight-year-old girl living in the suburbs of Melbourne, and Max, a forty-four-year old, severely obese man living in New York.",
@@ -657,10 +500,7 @@
       "title": "Flight",
       "year": "2012",
       "runtime": "138",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Thriller"],
       "director": "Robert Zemeckis",
       "actors": "Nadine Velazquez, Denzel Washington, Carter Cabassa, Adam C. Edwards",
       "plot": "An airline pilot saves almost all his passengers on his malfunctioning airliner which eventually crashed, but an investigation into the accident reveals something troubling.",
@@ -671,9 +511,7 @@
       "title": "One Flew Over the Cuckoo's Nest",
       "year": "1975",
       "runtime": "133",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Milos Forman",
       "actors": "Michael Berryman, Peter Brocco, Dean R. Brooks, Alonzo Brown",
       "plot": "A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients.",
@@ -684,9 +522,7 @@
       "title": "Requiem for a Dream",
       "year": "2000",
       "runtime": "102",
-      "genres": [
-        "Drama"
-      ],
+      "genres": ["Drama"],
       "director": "Darren Aronofsky",
       "actors": "Ellen Burstyn, Jared Leto, Jennifer Connelly, Marlon Wayans",
       "plot": "The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.",
@@ -697,11 +533,7 @@
       "title": "The Truman Show",
       "year": "1998",
       "runtime": "103",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Sci-Fi"
-      ],
+      "genres": ["Comedy", "Drama", "Sci-Fi"],
       "director": "Peter Weir",
       "actors": "Jim Carrey, Laura Linney, Noah Emmerich, Natascha McElhone",
       "plot": "An insurance salesman/adjuster discovers his entire life is actually a television show.",
@@ -712,11 +544,7 @@
       "title": "The Artist",
       "year": "2011",
       "runtime": "100",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
+      "genres": ["Comedy", "Drama", "Romance"],
       "director": "Michel Hazanavicius",
       "actors": "Jean Dujardin, Bérénice Bejo, John Goodman, James Cromwell",
       "plot": "A silent movie star meets a young dancer, but the arrival of talking pictures sends their careers in opposite directions.",
@@ -937,62 +765,11 @@
   ],
   "favorites": [
     {
-      "id": 3,
-      "title": "The Shawshank Redemption",
-      "year": "1994",
-      "runtime": "142",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "director": "Frank Darabont",
-      "actors": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
-      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4MjU4NjIwNl5BMl5BanBnXkFtZTgwMDU2MjEyMDE@._V1_SX300.jpg",
-      "watched": false
-    },
-    {
-      "id": 9,
-      "title": "The Intouchables",
-      "year": "2011",
-      "runtime": "112",
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Drama"
-      ],
-      "director": "Olivier Nakache, Eric Toledano",
-      "actors": "François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot",
-      "plot": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
-      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX300.jpg",
-      "watched": false
-    },
-    {
-      "id": 5,
-      "title": "Valkyrie",
-      "year": "2008",
-      "runtime": "121",
-      "genres": [
-        "Drama",
-        "History",
-        "Thriller"
-      ],
-      "director": "Bryan Singer",
-      "actors": "Tom Cruise, Kenneth Branagh, Bill Nighy, Tom Wilkinson",
-      "plot": "A dramatization of the 20 July assassination and political coup plot by desperate renegade German Army officers against Hitler during World War II.",
-      "posterUrl": "http://ia.media-imdb.com/images/M/MV5BMTg3Njc2ODEyN15BMl5BanBnXkFtZTcwNTAwMzc3NA@@._V1_SX300.jpg",
-      "watched": false
-    },
-    {
       "id": 6,
       "title": "Ratatouille",
       "year": "2007",
       "runtime": "111",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family"
-      ],
+      "genres": ["Animation", "Comedy", "Family"],
       "director": "Brad Bird, Jan Pinkava",
       "actors": "Patton Oswalt, Ian Holm, Lou Romano, Brian Dennehy",
       "plot": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
@@ -1004,10 +781,7 @@
       "title": "Memento",
       "year": "2000",
       "runtime": "113",
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
+      "genres": ["Mystery", "Thriller"],
       "director": "Christopher Nolan",
       "actors": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
       "plot": "A man juggles searching for his wife's murderer and keeping his short-term memory loss from being an obstacle.",
@@ -1019,10 +793,7 @@
       "title": "City of God",
       "year": "2002",
       "runtime": "130",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Fernando Meirelles, Kátia Lund",
       "actors": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva",
       "plot": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.",
@@ -1034,14 +805,23 @@
       "title": "Taxi Driver",
       "year": "1976",
       "runtime": "113",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "director": "Martin Scorsese",
       "actors": "Diahnne Abbott, Frank Adu, Victor Argo, Gino Ardito",
       "plot": "A mentally unstable Vietnam War veteran works as a night-time taxi driver in New York City where the perceived decadence and sleaze feeds his urge for violent action, attempting to save a preadolescent prostitute in the process.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGQxNDgzZWQtZTNjNi00M2RkLWExZmEtNmE1NjEyZDEwMzA5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "watched": false
+    },
+    {
+      "id": 1,
+      "title": "Beetlejuice",
+      "year": "1988",
+      "runtime": "92",
+      "genres": ["Comedy", "Fantasy"],
+      "director": "Tim Burton",
+      "actors": "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page",
+      "plot": "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house.",
+      "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg",
       "watched": false
     }
   ]
