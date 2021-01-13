@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="divint m-4 justify-content-center">
+    <div class="form-group">
+      <label for="name">Name : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        aria-describedby="emailHelp"
+        placeholder="Name"
+        [(ngModel)]="name"
+      />
+      <br />
+    </div>
+    <div class="form-group">
+      <label for="email">Email : </label>
+      <input
+        type="text"
+        id="email"
+        class="form-control"
+        [(ngModel)]="email"
+        placeholder="Email"
+      />
+      <br />
+    </div>
+    <div class="form-group">
+      <label for="number">Phone Number : </label>
+      <input
+        type="text"
+        id="number"
+        class="form-control"
+        [(ngModel)]="pnumber"
+        placeholder="Number"
+      />
+    </div>
+    <br />
+    <button
+      type="submit"
+      (click)="updateContact()"
+      class="btn btn-primary btn-sm"
+    >
+      Update
+    </button>
+  </div>
+</div>

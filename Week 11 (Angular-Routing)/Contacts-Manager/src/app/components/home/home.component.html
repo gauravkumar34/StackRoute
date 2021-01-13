@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <!-- <div class="col-md-6"> -->
+    <div
+      class="card text-white bg-dark m-3"
+      *ngFor="let item of allContacts"
+      style="width: 18rem"
+    >
+      <i class="fa fa-edit mt-2 right" (click)="reDirectEditPage(item)"></i>
+      <div class="card-header">
+        {{ item.name }}
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{ item.number }}</h5>
+        <h6 class="card-title">{{ item.email }}</h6>
+        <!-- </div> -->
+      </div>
+      <span
+        class="badge badge-danger mb-1 badge-sm"
+        (click)="DeleteContact(item)"
+        >Delete</span
+      >
+    </div>
+  </div>
+</div>
