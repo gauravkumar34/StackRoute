@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="row mt-3">
+    <div class="form-group justify-content-center">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search Movie"
+        [(ngModel)]="moviename"
+      />
+    </div>
+    <div class="form-group">
+      <button
+        (click)="SearchMovie()"
+        class="form-control"
+        class="btn btn-secondary"
+      >
+        Search Movie
+      </button>
+    </div>
+  </div>
+  <div *ngIf="checkMovie(); then thenBlock; else elseBlock"></div>
+  <ng-template #thenBlock
+    ><div class="col-md-4 offset-md-4">
+      <div class="card" style="width: 18rem">
+        <img src="{{ movie?.Poster }}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ movie?.Title }}</h5>
+          <p class="card-text">{{ movie?.Actors }}</p>
+          <p class="card-text">{{ movie?.Director }}</p>
+          <p class="card-text">{{ movie?.Runtime }}</p>
+          <label for="rating">Rating:</label>
+
+          <select id="rating" [(ngModel)]="myRating">
+            <option *ngFor="let i of ratings">{{ i }}</option>
+          </select>
+          <br />
+          <button class="btn btn-secondary btn-sm" (click)="AddMovie()">
+            Rating
+          </button>
+        </div>
+      </div>
+    </div></ng-template
+  >
+  <ng-template #elseBlock><div></div></ng-template>
+</div>

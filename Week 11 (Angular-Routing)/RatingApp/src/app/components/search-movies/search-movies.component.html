@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row mt-4">
+    <div class="card ml-2" *ngFor="let i of myMovie" style="width: 18rem">
+      <img src="{{ i.poster }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ i.title }}</h5>
+        <p class="card-text">Actors : {{ i.actors }}</p>
+        <p class="card-text">Director : {{ i.director }}</p>
+        <p class="card-text">Year : {{ i.year }}</p>
+        <div style="font-size: x-large; color: orange">
+          <ngb-rating
+            [max]="5"
+            [(rate)]="currentRate"
+            [readonly]="false"
+          ></ngb-rating>
+        </div>
+        <button class="btn btn-danger" (click)="ratingDelete(i.id)">
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

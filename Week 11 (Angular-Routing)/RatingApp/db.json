@@ -1,0 +1,30 @@
+{
+  "movies": [
+    {
+      "title": "Baahubali: The Beginning",
+      "year": "2015",
+      "released": "09 Jul 2015",
+      "director": "S.S. Rajamouli",
+      "actors": "Prabhas, Rana Daggubati, Ramya Krishnan, Sathyaraj",
+      "plot": "In ancient India, an adventurous and daring man becomes involved in a decades old feud between two warring people.",
+      "country": "India",
+      "boxOffice": "$6,738,000",
+      "myRating": "5",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWVlMjVhZWYtNWViNC00ODFkLTk1MmItYjU1MDY5ZDdhMTU3XkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_SX300.jpg",
+      "id": 2
+    },
+    {
+      "title": "Avatar",
+      "year": "2009",
+      "released": "18 Dec 2009",
+      "director": "James Cameron",
+      "actors": "Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang",
+      "plot": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+      "country": "USA",
+      "boxOffice": "$760,507,625",
+      "myRating": "4",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_SX300.jpg",
+      "id": 4
+    }
+  ]
+}
