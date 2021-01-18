@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row m-2">
+    <div class="card" *ngFor="let item of products" style="width: 18rem">
+      <img src="{{ item.image }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ item.name }}</h5>
+        <p class="card-text">{{ item.category }}</p>
+        <a href="#" class="btn btn-primary">{{ item.price }}</a>
+      </div>
+    </div>
+  </div>
+</div>

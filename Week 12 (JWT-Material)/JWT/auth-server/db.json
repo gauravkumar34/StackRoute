@@ -1,0 +1,276 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "../../../assets/images/Apple.jpeg",
+      "category": "fruit",
+      "name": "Apple",
+      "description": "3pcs",
+      "price": 200
+    },
+    {
+      "id": "2",
+      "image": "../../../assets/images/Banana.jpeg",
+      "category": "fruit",
+      "name": "Banana",
+      "description": "6pcs",
+      "price": 70
+    },
+    {
+      "id": "3",
+      "image": "../../../assets/images/Brinjal.jpeg",
+      "category": "vegetable",
+      "name": "Brinjal",
+      "description": "4pcs",
+      "price": 25
+    },
+    {
+      "id": "4",
+      "image": "../../../assets/images/Brocoli.jpeg",
+      "category": "vegetable",
+      "name": "Brocoli",
+      "description": "500gms",
+      "price": 37
+    },
+    {
+      "id": "5",
+      "image": "../../../assets/images/Capsicum.jpeg",
+      "category": "vegetable",
+      "name": "Capsicum",
+      "description": "3pcs",
+      "price": 27
+    },
+    {
+      "id": "6",
+      "image": "../../../assets/images/Carrot.jpeg",
+      "category": "vegetable",
+      "name": "Carrot",
+      "description": "500gms",
+      "price": 40
+    },
+    {
+      "id": "7",
+      "image": "../../../assets/images/Chana.jpeg",
+      "category": "grocery",
+      "name": "Chana Dal",
+      "description": "500gms",
+      "price": 50
+    },
+    {
+      "id": "8",
+      "image": "../../../assets/images/Garlic.jpeg",
+      "category": "vegetable",
+      "name": "Garlic",
+      "description": "5pcs",
+      "price": 34
+    },
+    {
+      "id": "9",
+      "image": "../../../assets/images/Ginger.jpeg",
+      "category": "vegetable",
+      "name": "Ginger",
+      "description": "100gms",
+      "price": 16
+    },
+    {
+      "id": "10",
+      "image": "../../../assets/images/Grape.jpeg",
+      "category": "fruit",
+      "name": "Grape",
+      "description": "100gms",
+      "price": 49
+    },
+    {
+      "id": "11",
+      "image": "../../../assets/images/Green apple.jpeg",
+      "category": "fruit",
+      "name": "Green Apple",
+      "description": "4pcs",
+      "price": 266
+    },
+    {
+      "id": "12",
+      "image": "../../../assets/images/GreenMoong.jpeg",
+      "category": "grocery",
+      "name": "Green Moong Dal",
+      "description": "500gms",
+      "price": 143
+    },
+    {
+      "id": "13",
+      "image": "../../../assets/images/GreenMoongUp.jpeg",
+      "category": "grocery",
+      "name": "Green Moong Unpolished",
+      "description": "500gms",
+      "price": 120
+    },
+    {
+      "id": "14",
+      "image": "../../../assets/images/Guava.jpeg",
+      "category": "fruit",
+      "name": "Guava",
+      "description": "6pcs",
+      "price": 50
+    },
+    {
+      "id": "15",
+      "image": "../../../assets/images/Kiwi.jpeg",
+      "category": "fruit",
+      "name": "Kiwi",
+      "description": "4pcs",
+      "price": 176
+    },
+    {
+      "id": "16",
+      "image": "../../../assets/images/Mansoor.jpeg",
+      "category": "grocery",
+      "name": "Mansoor Dal",
+      "description": "500gms",
+      "price": 241
+    },
+    {
+      "id": "17",
+      "image": "../../../assets/images/moong.jpeg",
+      "category": "grocery",
+      "name": "Moong Dal",
+      "description": "500gms",
+      "price": 71
+    },
+    {
+      "id": "18",
+      "image": "../../../assets/images/Onion.jpeg",
+      "category": "vegetable",
+      "name": "Onion",
+      "description": "4pcs",
+      "price": 47
+    },
+    {
+      "id": "19",
+      "image": "../../../assets/images/Orange.jpeg",
+      "category": "fruit",
+      "name": "Orange",
+      "description": "3pcs",
+      "price": 90
+    },
+    {
+      "id": "20",
+      "image": "../../../assets/images/Pancharatna.jpeg",
+      "category": "a",
+      "name": "Pancharatna Dal",
+      "description": "500gms",
+      "price": 149
+    },
+    {
+      "id": "20",
+      "image": "../../../assets/images/Pancharatna.jpeg",
+      "category": "grocery",
+      "name": "Pancharatna Dal",
+      "description": "500gms",
+      "price": 149
+    },
+    {
+      "id": "21",
+      "image": "../../../assets/images/Peach.jpeg",
+      "category": "fruit",
+      "name": "Peach",
+      "description": "6pcs",
+      "price": 233
+    },
+    {
+      "id": "22",
+      "image": "../../../assets/images/pepper.jpeg",
+      "category": "grocery",
+      "name": "Pepper",
+      "description": "100gms",
+      "price": 30
+    },
+    {
+      "id": "23",
+      "image": "../../../assets/images/Pomegrante.jpeg",
+      "category": "fruit",
+      "name": "Pomegrante",
+      "description": "3pcs",
+      "price": 239
+    },
+    {
+      "id": "24",
+      "image": "../../../assets/images/Potato.jpeg",
+      "category": "vegetable",
+      "name": "Potato",
+      "description": "3pcs",
+      "price": 27
+    },
+    {
+      "id": "25",
+      "image": "../../../assets/images/Radish.jpeg",
+      "category": "vegetable",
+      "name": "Radish",
+      "description": "5pcs",
+      "price": 45
+    },
+    {
+      "id": "26",
+      "image": "../../../assets/images/Roasted Chickpea.jpeg",
+      "category": "grocery",
+      "name": "Roasted Chickpea split",
+      "description": "500gms",
+      "price": 77
+    },
+    {
+      "id": "27",
+      "image": "../../../assets/images/Salt.jpeg",
+      "category": "grocery",
+      "name": "Salt",
+      "description": "500gms",
+      "price": 50
+    },
+    {
+      "id": "28",
+      "image": "../../../assets/images/Sugar.jpeg",
+      "category": "grocery",
+      "name": "Sugar",
+      "description": "500gms",
+      "price": 41
+    },
+    {
+      "id": "29",
+      "image": "../../../assets/images/Tamarind.jpeg",
+      "category": "grocery",
+      "name": "Tamarind",
+      "description": "250gms",
+      "price": 63
+    },
+    {
+      "id": "30",
+      "image": "../../../assets/images/Tomato.jpeg",
+      "category": "vegetable",
+      "name": "Tomato",
+      "description": "4pcs",
+      "price": 27
+    },
+    {
+      "id": "31",
+      "image": "../../../assets/images/Tur.jpeg",
+      "category": "grocery",
+      "name": "Tur Dal",
+      "description": "500gms",
+      "price": 109
+    },
+    {
+      "id": "32",
+      "image": "../../../assets/images/TurUp.jpeg",
+      "category": "grocery",
+      "name": "Tur Dal Unpolished split",
+      "description": "500gms",
+      "price": 74
+    },
+    {
+      "id": "33",
+      "image": "../../../assets/images/Urad white.jpeg",
+      "category": "grocery",
+      "name": "Urad White Dal split",
+      "description": "500gms",
+      "price": 200
+    }
+  ]
+}

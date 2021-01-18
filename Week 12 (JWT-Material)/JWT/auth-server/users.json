@@ -1,0 +1,12 @@
+{
+  "users": [
+    { "id": 1, "email": "bruno@email.com", "password": "bruno" },
+    { "id": 2, "email": "nilson@email.com", "password": "nilson" },
+    { "id": 3, "email": "john@gmail.com", "password": "123456" },
+    { "id": 4, "email": "urwidgaurav@gmail.com", "password": "1234" },
+    { "id": 5, "email": "Gaurav", "password": "1234" },
+    { "id": 6, "email": "Gauravd", "password": "1234" },
+    { "id": 7, "email": "Gaurav11", "password": "1234" },
+    { "id": 8, "email": "qsqsq", "password": "1111" }
+  ]
+}
