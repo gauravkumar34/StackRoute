@@ -1,0 +1,15 @@
+button{
+    background-color: blue;
+    color: white;
+}
+
+.center{
+    margin-top: 4rem;
+    margin-left: 30rem ;
+    margin-right: 30rem;
+    justify-content: center;
+}
+.example-card{
+    margin: 4rem;
+    width: 20rem;
+}

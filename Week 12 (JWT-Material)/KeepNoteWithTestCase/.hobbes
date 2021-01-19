@@ -1,0 +1,8 @@
+{
+	"workflow": "AngularIoApp",
+	"scores": {
+    	"commanderUIUnitTests": 60,
+    	"commandere2etests": 30,
+    	"tslint": 10
+	}
+}

@@ -1,0 +1,15 @@
+[0119/151913.292:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0119/160402.281:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0119/160932.599:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0119/160932.602:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0119/160932.617:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18f57760000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0119/160932.618:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[0119/160932.619:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18f5766e490 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0119/160932.620:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Google\Chrome\Application\87.0.4280.141\chrome_elf.dll
+[0119/160932.621:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18f576af550 of 72 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0119/160932.621:WARNING:pe_image_annotations_reader.cc(135)] could not read annotations list object in C:\Program Files (x86)\Google\Chrome\Application\87.0.4280.141\chrome.dll
+[0119/160932.623:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18f57760000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0119/160932.623:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[0119/160932.623:ERROR:process_memory_win.cc(73)] ReadMemory at 0x18f57760000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0119/160932.623:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[0119/171556.476:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
