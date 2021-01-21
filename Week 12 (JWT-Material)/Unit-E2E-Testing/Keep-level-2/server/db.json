@@ -1,0 +1,34 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Read Angular5 blog",
+      "text": "Shall do at 6 pm"
+    },
+    {
+      "id": 2,
+      "title": "Call Ravi",
+      "text": "Track the new submissions"
+    },
+    {
+      "title": "Capitalism",
+      "text": "Mark Twain",
+      "id": 3
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 4
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 5
+    },
+    {
+      "title": "Read Angular 5 blog",
+      "text": "Shall do at 6 pm",
+      "id": 6
+    }
+  ]
+}
