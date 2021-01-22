@@ -1,0 +1,22 @@
+<div class="example-container">
+  <div class="row">
+    <form [formGroup]="loginForm">
+      <input
+        type="text"
+        formControlName="username"
+        class="username"
+        matInput
+        placeholder="username"
+      />
+      <input
+        type="password"
+        formControlName="password"
+        class="password"
+        matInput
+        placeholder="password"
+      />
+      <button type="submit" (click)="loginSubmit()">Submit</button>
+    </form>
+  </div>
+</div>
+<label class="error-message">{{ submitMessage }}</label>

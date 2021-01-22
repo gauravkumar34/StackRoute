@@ -1,0 +1,10 @@
+<div class="keep-c-note-container">
+  <label class="error-message">{{ errMessage }}</label>
+  <!-- Include the notes collection with each note rendered as a separate NoteComponent -->
+  <!-- fetch notes from db server and display here -->
+  <app-note
+    [note]="note"
+    *ngFor="let note of notes"
+    class="note-card"
+  ></app-note>
+</div>

@@ -1,0 +1,20 @@
+<!-- Label to display any error messages -->
+<label class="error-message">{{ errMessage }}</label>
+
+
+<mat-form-field> 
+  <input [(ngModel)]="note.title" name="editTitle" matInput placeholder="Title" type="text">
+</mat-form-field>
+<mat-form-field>
+  <textarea [(ngModel)]="note.text" name="editText" matInput placeholder="Text"></textarea>
+</mat-form-field>
+<mat-form-field>
+<mat-select name="editStatus" placeholder="Select state" [(ngModel)]="note.state">
+  <mat-option *ngFor="let state of states" [value]="state">
+    {{ state }}
+  </mat-option>
+</mat-select>
+</mat-form-field>
+<div class="keep-c-done-wrapper">
+  <button mat-button (click)="onSave()">Save</button>
+</div>
