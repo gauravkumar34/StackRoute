@@ -1,18 +1,20 @@
-<div class="keep-c-list-container">
-  <label>Not-Started</label>
+<div class="keep-c-note-container">
+  <div class="keep-c-list-container">
+    <label>Not-Started</label>
 
-  <!-- Populate notStartedNotes -->
-  <app-note [note]="note" *ngFor="let item of notStartedNotes"></app-note>
-</div>
-<div class="keep-c-list-container">
-  <label>Started</label>
+    <!-- Populate notStartedNotes -->
+    <app-note [note]="item" *ngFor="let item of notStartedNotes"></app-note>
+  </div>
+  <div class="keep-c-list-container">
+    <label>Started</label>
 
-  <!-- Populate startedNotes -->
-  <app-note [note]="note" *ngFor="let item of startedNotes"></app-note>
-</div>
-<div class="keep-c-list-container">
-  <label>Completed</label>
+    <!-- Populate startedNotes -->
+    <app-note [note]="item" *ngFor="let item of startedNotes"> </app-note>
+  </div>
+  <div class="keep-c-list-container">
+    <label>Completed</label>
 
-  <!-- Populate completedNotes -->
-  <app-note [note]="note" *ngFor="let item of completedNotes"></app-note>
+    <!-- Populate completedNotes -->
+    <app-note [note]="item" *ngFor="let item of completedNotes"></app-note>
+  </div>
 </div>

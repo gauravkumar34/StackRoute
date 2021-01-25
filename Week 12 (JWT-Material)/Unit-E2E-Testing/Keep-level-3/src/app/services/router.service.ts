@@ -3,8 +3,6 @@ import { Router } from '@angular/router';
 import { Location } from '@angular/common';
 @Injectable()
 export class RouterService {
-
-
   constructor(private router:Router, private location :Location) {}
 
   routeToDashboard() {
@@ -16,12 +14,11 @@ export class RouterService {
   }
 
   routeToEditNoteView(noteId) {
-    this.router.navigate(['dashboard',{
+    this.router.navigate(['dashboard', {
       outlets: {
-        noteEditOutlet : ['note',noteId,'edit']
+        noteEditOutlet: ['note', noteId, 'edit'],
       }
-
-    }])
+    }]);
   }
 
   routeBack() {

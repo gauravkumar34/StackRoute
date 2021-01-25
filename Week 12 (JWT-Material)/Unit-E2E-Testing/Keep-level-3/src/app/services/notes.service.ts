@@ -1,4 +1,4 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { Note } from '../note';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
@@ -8,7 +8,7 @@ import 'rxjs/add/operator/do'
 import 'rxjs/add/Observable/from'
 
 @Injectable()
-export class NotesService implements OnInit {
+export class NotesService {
   
   notes: Array<Note>;
   notesSubject: BehaviorSubject<Array<Note>>;
@@ -16,9 +16,6 @@ export class NotesService implements OnInit {
     this.notes = [];
     this.notesSubject = new BehaviorSubject([]);
   }
-  ngOnInit(): void {
-  }
-  
   fetchNotesFromServer() {
     this.http.get(`http://localhost:3000/api/v1/notes`,{ 
       headers: new HttpHeaders().set('Authorization',`Bearer ${this.services.getBearerToken()}`)
@@ -41,17 +38,20 @@ export class NotesService implements OnInit {
       this.notes.push(data);
       this.notesSubject.next(this.notes);
     });
-  };
+  }
 
   editNote(note: Note): Observable<Note> {
-    return this.http.put<Note>(`http://localhost:3000/api/v1/notes/${note.id}`,note,{
+    return this.http.put<Note>(`http://localhost:3000/api/v1/notes/${note.id}`, note, {
       headers: new HttpHeaders().set('Authorization',`Bearer ${this.services.getBearerToken()}`)
-    }).do(data=> {
-      // not done....
-    })
+    }).do(editedNote => {
+      const existingNote = this.notes.find(noteValue => noteValue.id === editedNote.id);
+      Object.assign(existingNote, editedNote);
+      this.notesSubject.next(this.notes);
+    });
   } 
 
   getNoteById(noteId): Note {
-    return this.notes.find(note => note.id === Number(noteId))
+    const note = this.notes.find(note => note.id === Number(noteId) )
+    return Object.assign({}, note);
   }
 }

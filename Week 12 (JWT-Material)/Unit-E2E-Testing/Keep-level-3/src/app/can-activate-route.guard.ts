@@ -16,6 +16,7 @@ export class CanActivateRouteGuard implements CanActivate {
       return promise.then((auth) => {
         if(!auth){
           this.serviceRouter.routeToLogin();
+      
         }
         return auth;
       })

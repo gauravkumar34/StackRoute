@@ -1,0 +1,15 @@
+.keep-c-expansion-panel-wrapper {
+    width: 50vw;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .keep-c-note-taker-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .keep-c-done-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }

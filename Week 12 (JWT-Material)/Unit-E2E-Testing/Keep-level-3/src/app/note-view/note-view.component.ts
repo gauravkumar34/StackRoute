@@ -9,13 +9,16 @@ import { NotesService } from '../services/notes.service';
 })
 export class NoteViewComponent implements OnInit{
   
-  constructor(private services:NotesService){}
+  
+  public notes:Array<Note>
+  errMessage:string;
+  constructor(private services:NotesService){
+    this.notes = [];
+  }
   ngOnInit(): void {
     this.getNotes();
   }
 
-  public notes:Array<Note>
-  errMessage:string;
   getNotes() {
     return this.services.getNotes().subscribe(data => {
       this.notes = data;

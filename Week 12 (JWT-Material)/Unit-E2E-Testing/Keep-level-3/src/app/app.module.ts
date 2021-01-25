@@ -1,10 +1,9 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
-import { MatExpansionModule } from '@angular/material/expansion';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { MatToolbarModule } from '@angular/material/toolbar';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule, MatCardModule, MatDialogModule, MatExpansionModule, MatFormFieldModule, MatInputModule, MatOptionModule, MatSelectModule, MatToolbarModule } from '@angular/material';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CanActivateRouteGuard } from './can-activate-route.guard';
@@ -22,33 +21,37 @@ import { NotesService } from './services/notes.service';
 import { RouterService } from './services/router.service';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    LoginComponent,
-    DashboardComponent,
-    NoteTakerComponent,
-    NoteComponent,
-    NoteViewComponent,
-    ListViewComponent,
-    EditNoteViewComponent,
-    EditNoteOpenerComponent
-   ],
-  imports: [
-    AppRoutingModule,
-    HttpClientModule,
-    MatFormFieldModule,
-    MatExpansionModule,
-    MatCardModule,
+  declarations: [ AppComponent,
+  HeaderComponent,
+  NoteComponent,
+  LoginComponent,
+  DashboardComponent,
+  NoteViewComponent,
+  ListViewComponent,
+  EditNoteViewComponent,
+  EditNoteOpenerComponent,
+  NoteTakerComponent
+],
+  imports: [ 
+    BrowserModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
     MatToolbarModule,
-    MatInputModule
-    
-    ],
-  providers: [AuthenticationService,
-    NotesService,
-    RouterService,
-    CanActivateRouteGuard ],
-  bootstrap: [ AppComponent]
+    MatCardModule,
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    FormsModule,
+    HttpClientModule,
+    MatDialogModule,
+    MatSelectModule,
+    AppRoutingModule,
+    MatOptionModule
+  ],
+  providers: [ NotesService, AuthenticationService, RouterService, CanActivateRouteGuard ],
+  bootstrap: [ AppComponent],
+  entryComponents: [ EditNoteViewComponent]
 })
 
 export class AppModule { }

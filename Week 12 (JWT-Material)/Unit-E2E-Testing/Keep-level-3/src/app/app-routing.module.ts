@@ -8,20 +8,27 @@ import { LoginComponent } from './login/login.component';
 import { NoteViewComponent } from './note-view/note-view.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
-  { path: 'dashboard', component: DashboardComponent ,canActivate :[CanActivateRouteGuard]
-    ,children:[
-      {path:'view/noteview',component:NoteViewComponent},
-      {path:'view/listview',component:ListViewComponent},
-      {path: 'note/:noteId/edit',component:EditNoteOpenerComponent,
-  outlet:'noteEditOutlet'},
   {
-    path: '',
-    redirectTo: 'view/noteview',
-    pathMatch: 'full'
-  } 
-    ]},
-    {path:'', redirectTo:'dashboard',pathMatch:'full'}
+    path: 'dashboard',
+    component: DashboardComponent,
+    canActivate: [CanActivateRouteGuard],
+    children: [
+      {
+        path: 'view/noteview', component: NoteViewComponent
+      },
+      {
+        path: 'view/listview', component: ListViewComponent
+      },
+      {
+        path: '', redirectTo: 'view/noteview', pathMatch: 'full'
+      },
+      {
+        path: 'note/:noteId/edit', component: EditNoteOpenerComponent, outlet: 'noteEditOutlet'
+      }
+    ]
+  }
 ];
 
 @NgModule({

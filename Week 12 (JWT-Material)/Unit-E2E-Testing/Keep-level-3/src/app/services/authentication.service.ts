@@ -19,8 +19,8 @@ export class AuthenticationService {
   }
 
   isUserAuthenticated(token): Promise<boolean> {
-    return this.http.post(`http://localhost:3000/auth/v1/isAuthenticated`,{},{
-      headers: new HttpHeaders().set('Authorization',`Bearer ${token}`)}).map((res:any) =>res.isAuthenticated).toPromise();
+    return this.http.post<boolean>(`http://localhost:3000/auth/v1/isAuthenticated`,{},{
+      headers: new HttpHeaders().set('Authorization',`Bearer ${token}`)}).map((res:any) =>res['isAuthenticated']).toPromise();
     }
   
 }

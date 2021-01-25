@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { AuthenticationService } from '../services/authentication.service';
 import { RouterService } from '../services/router.service';
 
@@ -9,20 +9,20 @@ import { RouterService } from '../services/router.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent  implements OnInit {
-    constructor (private services: AuthenticationService, private router:RouterService) {}  
-  ngOnInit(): void {
+  
+  submitMessage:string;
+  username = new FormControl();
+  password = new FormControl();
+  constructor (private services: AuthenticationService, private router:RouterService) {}  
+  
+  public loginForm = new FormGroup({
+    username : this.username,
+    password : this.password
+  }) 
+    ngOnInit(): void {
     }
-    public submitMessage:string;
-    username = new FormControl();
-    password = new FormControl();
-
-    public loginFrom = new FormGroup({
-      username : this.username,
-      password : this.password
-    }) 
-
     loginSubmit() {
-      this.services.authenticateUser(this.loginFrom).subscribe((data:any) =>{
+      this.services.authenticateUser(this.loginForm.value).subscribe((data:any) =>{
         this.services.setBearerToken(data['token']);
         this.router.routeToDashboard();
       }, err => {
@@ -33,5 +33,9 @@ export class LoginComponent  implements OnInit {
           this.submitMessage = err.message;
         }
       })
-    }
+    
+  }
+
+
+
 }

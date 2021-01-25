@@ -9,7 +9,7 @@ import { Location } from '@angular/common';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  isNoteView = true;
+  isNoteView :any = true;
   constructor(private location: Location, private router: Router, private routerService: RouterService) {
     router.events.subscribe((val) => {
       if (location.path().indexOf('listview') > -1) {

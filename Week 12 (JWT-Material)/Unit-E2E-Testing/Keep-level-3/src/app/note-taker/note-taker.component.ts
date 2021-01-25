@@ -9,14 +9,15 @@ import { NotesService } from '../services/notes.service';
 })
 export class NoteTakerComponent implements OnInit{
 
+  errMessage: string;
+  note:Note = new Note();
   constructor(private services: NotesService) {
-
+    this.note = new Note();
   }
   ngOnInit(): void {
   }
 
-  errMessage: string;
-  note:Note = new Note();
+  
   public notes:Array<Note>;  //all notes are added in this array on click submit AddNote()  
   addNote() {
     if(!this.note.title || !this.note.text){
