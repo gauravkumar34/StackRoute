@@ -1,0 +1,108 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "Farmhouse",
+      "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+      "category": "Veg",
+      "price": 395,
+      "image": "assets/pics/Farmhouse.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Veggie Paradise",
+      "description": "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
+      "category": "Veg",
+      "price": 395,
+      "image": "assets/pics/Veggie_Paradise.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mexican Green Wave",
+      "description": "Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno",
+      "category": "Veg",
+      "price": 395,
+      "image": "assets/pics/Mexican_Green_Wave.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Peppy Paneer",
+      "description": "Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika",
+      "category": "Veg",
+      "price": 395,
+      "image": "assets/pics/Peppy_Paneer.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Chicken Golden Delight",
+      "description": "Double pepper barbecue chicken, golden corn and extra cheese, true delight",
+      "category": "Non-Veg",
+      "price": 450,
+      "image": "assets/pics/Chicken_Golden_Delight.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chicken Sausage",
+      "description": "American classic! Spicy, herbed chicken sausage on pizza",
+      "category": "Non-Veg",
+      "price": 450,
+      "image": "assets/pics/Chicken_Sausage.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Chicken Fiesta",
+      "description": "Grilled chicken rashers, peri-peri chicken, onion & capsicum, a complete fiesta",
+      "category": "Non-Veg",
+      "price": 450,
+      "image": "assets/pics/chunky-chicken.png"
+    },
+    {
+      "id": 8,
+      "name": "Non Veg Supreme",
+      "description": "Supreme combination of black olives, onion, capsicum, grilled mushroom, pepper barbecue chicken, peri-peri chicken & grilled chicken rashers",
+      "category": "Non-Veg",
+      "price": 450,
+      "image": "assets/pics/Non-Veg_Supreme.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Chicken Dominator",
+      "description": "Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers",
+      "category": "Non-Veg",
+      "price": 490,
+      "image": "assets/pics/Chicken_Dominator.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Garlic Bread Sticks",
+      "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+      "category": "Sides",
+      "price": 99,
+      "image": "assets/pics/garlic bread.jpg"
+    },
+    {
+      "id": 11,
+      "name": "White Veg Pasta",
+      "description": "Creamy white pasta with herbs, grilled mushrooms, black olives and vegies",
+      "category": "Sides",
+      "price": 135,
+      "image": "assets/pics/white-pasta-veg.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Taco Mexicana Veg",
+      "description": "A crispy flaky wrap filled with Mexican Arancini Bean Patty rolled over a creamy Harissa Sauce.",
+      "category": "Sides",
+      "price": 118,
+      "image": "assets/pics/Taco-Mexican-Veg.jpg"
+    }
+  ],
+  "Cart": [
+    {
+      "name": "Mexican Green Wave",
+      "price": 395,
+      "itemAdd": 1,
+      "id": 1
+    }
+  ]
+}

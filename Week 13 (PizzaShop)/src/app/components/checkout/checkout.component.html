@@ -1,0 +1,45 @@
+<table class="table">
+  <tbody>
+    <tr *ngFor="let item of datas">
+      <td>{{ item.name }}</td>
+      <td>{{ item.price }}</td>
+      <td>
+        <button ng-click="PC.minus(item)" class="btn btn-default">-</button>
+        <input ng-model="item.Quantity" type="number" name="Quantity" />
+        <button class="btn btn-default" ng-click="PC.plus(item)">+</button>
+      </td>
+      <td (click)="deleteItem(item)"><i class="fas fa-times"></i></td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <th>Total Amount</th>
+      <th colspan="4" class="text-right">
+        {{ totals }}
+        <input
+          type="hidden"
+          ng-reflect-model="1185"
+          value="1185"
+          class="ng-untouched ng-pristine ng-valid"
+        />
+      </th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>GST@5%</th>
+      <th colspan="4" class="text-right">{{ gstTotals }}</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th>Amount to be paid</th>
+      <th colspan="4" class="text-right">{{ totalAmount }}</th>
+      <td></td>
+    </tr>
+    <tr>
+      <th colspan="6" class="text-right">
+        <button class="btn btn-success">CheckOut</button>
+      </th>
+    </tr>
+  </tfoot>
+</table>
