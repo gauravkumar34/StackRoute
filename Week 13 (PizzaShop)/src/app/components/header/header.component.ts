@@ -1,6 +1,6 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 import { PizzaApiService } from 'src/app/services/pizza-api.service';
-
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -8,26 +8,24 @@ import { PizzaApiService } from 'src/app/services/pizza-api.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private services : PizzaApiService) {}
-  public lenCart : any;
+  constructor(private modalService: NgbModal, private services : PizzaApiService) {}
 
- 
-
-  getCart() {
-    this.services.getCartItem().subscribe(data => {
-      this.lenCart =  Object.keys(data).length;
-      // this.getCart();
-      
-    })
-    
-    
-  }
+  public lenCart:number;
+  closeResult = '';
   ngOnInit(): void {
-    this.getCart();
-  }
-  ngOnDestroy(){
-    this.getCart();
+    this.getCartLen()
   }
   
-  
+  open(content) {
+    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+      this.closeResult = `Closed with: ${result}`;
+
+    })
+  }
+
+  getCartLen() {
+     this.services.getCartItem().subscribe(data => {
+      this.lenCart = Object.keys(data).length
+    })
+  }
 }

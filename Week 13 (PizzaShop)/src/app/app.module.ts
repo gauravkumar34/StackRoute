@@ -7,6 +7,9 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CheckoutComponent } from './components/checkout/checkout.component';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatIconModule} from '@angular/material/icon';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 @NgModule({
   declarations: [
@@ -17,9 +20,13 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
     CheckoutComponent
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    MatBadgeModule,
+    MatIconModule,
+    NgbModule
 
   ],
   providers: [],

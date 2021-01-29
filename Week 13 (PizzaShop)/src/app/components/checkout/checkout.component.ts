@@ -17,6 +17,20 @@ export class CheckoutComponent implements OnInit {
     this.getCart()
   }
 
+  quantity:number=1;
+  i=1;
+  plus() {
+    if(this.i !=5 ){
+      this.i++;
+      this.quantity=this.i;
+    }
+  }
+  minus() {
+    if(this.i != 1) {
+      this.i--;
+      this.quantity=this.i;
+    }
+  }
   getCart() {
     return this.services.getCartItem().subscribe(data => {
       this.datas = data;
@@ -34,15 +48,13 @@ export class CheckoutComponent implements OnInit {
     var total=0
     this.datas.forEach(element => {
       total += element.price;
-      console.log(total)   
     });
     return this.totals = total;
   }
   getGst() {
-
      this.gstTotals = (5*this.totals)/100;
      this.totalAmount = this.totals + this.gstTotals;
-    console.log(this.totalAmount)
+    
   }
 
 }

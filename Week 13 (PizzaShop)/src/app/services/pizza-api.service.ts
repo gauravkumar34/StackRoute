@@ -6,8 +6,7 @@ import {HttpClient} from '@angular/common/http'
 export class PizzaApiService {
 
   constructor(private http :HttpClient) { }
-
-
+  // public lenCart:number;
   getPizzaApi(){
     return this.http.get(`http://localhost:3000/Products`);
   }
@@ -20,4 +19,12 @@ export class PizzaApiService {
   deleteItemCart(id:number) {
     return this.http.delete(`http://localhost:3000/Cart/${id}`);
   }
+
+  // getCartLen() {
+  //   return this.http.get(`http://localhost:3000/Cart`).subscribe(data => {
+  //     this.lenCart = Object.keys(data).length;
+  //   })
+  // }
+
+  
 }

@@ -1,1 +1,13 @@
 
+.center{
+    width: 150px;
+      margin: 40px auto;
+      
+    }
+img{
+  width: 100%;
+}
+.input-button{
+  width: 3rem;
+  height: 2rem;
+}

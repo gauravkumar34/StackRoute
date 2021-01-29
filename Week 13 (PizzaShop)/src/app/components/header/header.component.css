@@ -1,8 +1,17 @@
-button{
+mat-icon{
     border: 0;
-    color: black;
+    color:gainsboro;
 }
 .right{
     position: absolute;
     right: 0;
+    margin-right: 4rem;
+}
+img{
+    margin-left: 2rem;
+    width: auto;
+    height: 3rem;
+}
+nav{
+    background-color: black !important;
 }

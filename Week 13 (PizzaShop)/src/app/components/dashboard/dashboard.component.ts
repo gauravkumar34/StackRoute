@@ -9,7 +9,7 @@ import { PizzaApiService } from 'src/app/services/pizza-api.service';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor(private services : PizzaApiService ) { }
+  constructor(private services : PizzaApiService) { }
   public pizzas :any;
   ngOnInit(): void {
     this.getData();
@@ -29,8 +29,7 @@ export class DashboardComponent implements OnInit {
       itemAdd:1
     }
     this.services.addItemToCart(items).subscribe(data => {
-      alert('Item is Added')
+      alert(item.name + ' is Added to your Cart.')
     })
-    
   }
 }
