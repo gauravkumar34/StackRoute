@@ -1,0 +1,37 @@
+1. CREATE TABLE user(id int NOT NULL AUTO_INCREMENT, name varchar(45) NOT NULL,addedData varchar(100),password varchar(45),mobile int, PRIMARY KEY (id));
+2. CREATE TABLE note(id int NOT NULL AUTO_INCREMENT,title varchar(50),content varchar(100),status varchar(40),creationDate varchar(40), PRIMARY KEY(id));
+3. CREATE TABLE category(id int NOT NULL AUTO_INCREMENT, name varchar(45), desciptions varchar(100),creationDate varchar(50),creator varchar(50), PRIMARY KEY (id));
+4. CREATE TABLE reminder(id int NOT NULL AUTO_INCREMENT, name varchar(45),desciptions varchar(100), creationDate varchar(50), creator varchar(50), PRIMARY KEY(id));
+5. CREATE TABLE noteCartegory(notecategory_id int NOT NULL AUTO_INCREMENT, note_id int,categoty_id int, PRIMARY KEY(notecategory_id));
+6. CREATE TABLE noteReminder(notereminder_id int NOT NULL AUTO_INCREMENT, note_id int,remainder_id int, PRIMARY KEY(notereminder_id));
+7. CREATE TABLE userNote(usernote_id int NOT NULL AUTO_INCREMENT, user_id int,note_id int, PRIMARY KEY(usernote_id));
+
+8. INSERT INTO user(id,name,addedData,password,mobile) VALUES(101,'Gaurav','Hai Gaurav Here','Gaurav',7011267344);
+9. INSERT INTO note(id,title,content,status,creationDate) VALUES (1001,'Intro','Hai Gaurav Here','completed','12/02/2021');
+10.INSERT INTO category(id, name, desciptions,creationDate,creator) VALUES (10001,'Self Intro','Introduction','12/02/2021','Gaurav');
+11.INSERT INTO reminder(id,name,desciptions,creationDate,creator) VALUES (100001,'Remainder','SelfIntro','12/02/2021','Gaurav')
+12.INSERT INTO noteCategory(notecategory_id,note_id,categoty_id) VALUES (1,1001,10001)
+13.INSERT INTO noteReminder(notereminder_id,note_id,remainder_id) VALUES (111,1001,100001)
+14.INSERT INTO usernote(usernote_id,user_id,note_id) VALUES (11,101,1001);
+
+15.SELECT id , password from user;
+16.SELECT creationDate from note;
+17.SELECT * FROM category WHERE creationDate >'12-02-2021';
+18.SELECT note_id From usernote;
+19.UPDATE note SET content = "this is content is updated" WHERE id = 1001;
+
+20.SELECT * FROM note WHERE id=(SELECT note_id FROM usernote);
+21.SELECT * FROM note WHERE id=(SELECT note_id FROM usernote WHERE user_id =(SELECT id FROM user WHERE name='Gaurav'));
+22.SELECT * FROM note WHERE id = (SELECT note_id FROM notecartegory WHERE categoty_id ='10001');
+23.SELECT * FROM reminder WHERE id=(SELECT remainder_id FROM notereminder WHERE note_id='1001');
+24.SELECT * FROM reminder WHERE id='100001';
+
+25.CREATE TABLE new_note_user as (select id, title,content from note where id=(select note_id from usernote where user_id=101));
+   insert into new_note_user(id,title,content) values(1002,'hai','Guarav hear'),(1003,'hw','math assigment');  
+26.create table new_note_category as(select id, title,content from note where id=(select note_id from notecartegory where category_id='10001'));
+27.create table new_note_remainder as (select id, title, content from note where id = (select note_id from noteReminder where remainder_id='100001'));
+28.delete from note where id= (select note_id from userNote where user_id='101')
+29.delete from note where id=(select note_id from notecartegory where category_id='10001');
+
+
+30.

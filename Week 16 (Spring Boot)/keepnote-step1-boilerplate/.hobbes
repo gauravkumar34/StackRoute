@@ -1,0 +1,8 @@
+{
+  "workflow": "OpenJDK8SpringApp",
+  "scores": {
+    "commanderTests":45,
+    "cadetTests":45,
+    "pmd": 10
+  }
+}
