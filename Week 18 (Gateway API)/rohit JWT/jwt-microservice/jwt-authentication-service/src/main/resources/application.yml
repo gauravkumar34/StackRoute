@@ -1,0 +1,14 @@
+server:
+  port: 9099
+
+jwt:
+  secret: secret
+
+app:
+  jwttoken:
+    message: login successful
+  controller:
+    exception:
+      message1: id and password is empty
+      message2: id and password not found
+      message3: id and password invalid
