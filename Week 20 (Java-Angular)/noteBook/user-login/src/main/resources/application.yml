@@ -1,0 +1,24 @@
+server:
+  port: 8086
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/userDB?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: root
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+  rabbitmq:
+    queue: user.queue
+    exchange: user.exchange
+    routingkey: user.routingkey
+    host: localhost
+    username: guest
+    password: guest
+    port: 15672
